@@ -15,9 +15,9 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
   background:
   linear-gradient(#457b9db0, #457b9dd0),
   url("../Images/MeAndDrone.jpg") no-repeat;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   background-size: cover;
 }
 
@@ -28,8 +28,8 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
 .arrow_down { 
   height:90px;
   margin-top:200px;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
+  /* -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite; */
   animation: bounce 2s infinite;
 }
 
@@ -67,7 +67,7 @@ h4 {color:rgb(11, 27, 114); font-size: 30px; text-align:center; font-family: 'Al
 
 .right_image {float: right; width: 450px; border-radius:10px;}
 
-.center_image {float:center; width: 450px; border-radius:10px;}
+.center_image {width: 450px; border-radius:10px;}
 
 .left_circle {float:left; height:300px; width: 300px; border-radius: 150px; object-fit: cover; border: 1px solid rgb(18, 43, 126); margin-top:20px;}
 

@@ -9,7 +9,7 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
   background:
   linear-gradient(#457b9db0, #457b9dd0),
   url("../Images/MapMiddle.png") no-repeat;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   background-size: cover;}
