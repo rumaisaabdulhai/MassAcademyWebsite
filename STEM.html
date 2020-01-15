@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang= "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>STEM I</title>
+
+		<link href="css/Nav.css" rel="stylesheet">
+		<link href="css/Body.css" rel="stylesheet">
+		<link href="css/STEM.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Amaranth|Architects+DaughterBoogaloo|Bubblegum+Sans|Coming+Soon|Handlee|PT+Sans+Narrow|Philosopher" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts/myscript.js"></script>
+	
+	</head>
+
+	<body>
+
+		<div id = "section1">
+
+			<nav class= "navbar navbar-default navbar-fixed-top">
+				<ul>
+
+					<a href="https://github.com/rumaisaabdulhai"><div class = 'b1'>GitHub</div></a>
+
+					<!--Home Button Link-->
+					<a href="index.html"><div class= "b1">Home</div></a>
+
+					<!-- Personal Dropdown -->
+					<li class="drop_down">
+						<div class= "b1">Personal</div>
+							<div class="drop_down-content">
+								<a href="Hobbies.html">Hobbies</a>
+							</div>
+					</li>
+
+					<!-- Academics Dropdown -->
+					<li class="drop_down">
+						<div class= "b1">Academics</div>
+							<div class="drop_down-content">
+								<a href="CS.html">CS</a>
+								<a href="Hum.html">Humanities</a>
+								<a href="Lang.html">Language</a>
+								<a href="Math.html">Math</a>
+								<a href="Physics.html">Physics</a>
+								<a href="STEM.html">STEM</a>
+								<a href="STW.html">STW</a>
+							</div>
+					</li>
+
+					<div class= "spacer"></div>
+
+				</ul>
+			</nav>
+
+			<br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br>
+			
+			<h1>My STEM I Project</h1>
+
+			<div class="arrow_div">
+				<a href="#section2">
+				<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png"></a>
+			</div>
+
+		</div>
+
+		<div id="section2">
+
+			<div class = "regular_text">
+
+				<br>
+				<br>
+				<h2>Simulation of an Indoor Autonomous Drone for Assisting Police in Mass Shootings</h2>
+
+				<br><br><br><br>
+				<h3>Overview</h3>
+
+				<p> The STEM I and II Courses are taught by Dr. Crowthers at Mass Academy. In STEM I, Mass Academy juniors are required to conduct a 
+					5-month long science or engineering project. In A Term, we brainstormed ideas for our STEM Project. In B Term, we conducted a Literature Review 
+					on relevant journal articles in our field. During December Fair, we presented our research and preliminary results on our project
+					to advisors and Mass Academy seniors. We also have a February Fair where we present our STEM Project to the public. I am working
+					on an engineering project using autonomous drones to assist law enforcement during mass shootings and save precious lives.
+				</p>
+
+				<br><br><br><br>
+				<h3>Abstract</h3>
+
+				<p> Will be updated soon before February Fair. Come visit another time! </p>
+
+			</div>
+
+			<br><br><br><br>
+			<div class="text_cont">
+				<div class="right_text">
+					<h4>Engineering Goal</h4>
+					<p> The goal of this project is to engineer an algorithm to simulate an indoor drone’s navigation 
+						to a point of disturbance, collect real-time information about the location and the perpetrators of an emergency,
+						and relay it to a trusted group of individuals such as law enforcement to enable them to save precious human lives.
+					</p>
+				</div>
+
+				<div class="left_text">
+					<h4>Engineering Problem</h4>
+					<p> Currently, there is a need for more effective mechanisms for law enforcement personnel 
+						to know real-time information about the precise location and perpetrator(s) of a mass 
+						shooting in order to significantly reduce the loss of life.
+					</p>
+				</div>
+			</div>
+
+			<div class= "regular_text">
+
+				<p>Please visit my Github repository <a class= "link" href= "https://github.com/rumaisaabdulhai/quadcopter_sim">quadcopter_sim</a> to learn more about my STEM Project. <br> Below is a README of the package I created which contains my progress:</p>
+				
+				<br><br>
+
+				<div style = "text-align:center">
+					<iframe class = "docs" src="README.html"></iframe>
+				</div>
+				
+			</div>
+
+
+			<br><br><br><br>
+			<h3>RRT Path Planning Implementation</h3>
+
+			<div class="wrap">
+				<img class= "right_image" src= "Images/RRT.png"  alt= "RRT Picture">
+				<div class="left_text">
+					<p> Path planning algorithms are neccessary to determine 
+						an optimal path from a chosen source point to a destination point and are used extensively in the fields of robotics. 
+						The Rapidly Exploring Random Tree (RRT) Algorithm caught my eye as it can determine 
+						a possible path in a very short amount of time. I used path planning after I mapped the indoor environment 
+						so my drone could navigate from one location to another. I coded the RRT Algorithm in a simple 2D Python Simulator called Pygame. You can find my code <a class= "link" href= "https://github.com/rumaisaabdulhai/PathPlanning/blob/master/rrt_modified.py">here</a>.
+					</p>
+				</div>
+			</div>
+			<br><br><br><br>
+				
+		</div>
+
+	</body>
+</html>

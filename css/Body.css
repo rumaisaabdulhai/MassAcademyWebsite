@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* I referenced the code for my arrow from this website:
+https://codepen.io/bisaillonyannick/pen/pvZeGg */
+
+/* I referenced the code for my smooth scroll from w3schools:
+https://www.w3schools.com/howto/howto_css_smooth_scroll.asp */
+
+/* I learned how to make a tinted image from this website:
+https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+
+#section1 {
+  height: 100vh;
+  background:
+  linear-gradient(#457b9db0, #457b9dd0),
+  url("../Images/MeAndDrone.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section2 {margin-left: auto; margin-right: auto; height: 100vh;}
+
+.arrow_div {text-align: center;}
+
+.arrow_down { 
+  height:90px;
+  margin-top:200px;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+    }
+
+h1 {color:rgba(255,255,255,1.00); font-size: 65px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
+
+h2 {color:rgb(11, 27, 114); font-size: 60px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
+
+body {margin: 0px; padding:0px;}
+
+.wrap { width:960px; height:350px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px;}
+
+p {color:rgb(11, 27, 114);font-size: 22px; margin:0px; font-family: 'Open Sans', sans-serif;}
+
+h3 {color:rgb(11, 27, 114); font-size: 40px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
+
+h4 {color:rgb(11, 27, 114); font-size: 30px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
+
+.right_text {float:right; height:325px; width:450px; padding-right: 25px; padding-left: 35px;}
+
+.left_text {float:left; height:325px; width:450px; padding-right: 35px; padding-left: 25px;}
+
+.left_image {float:left; width: 450px; border-radius:10px;}
+
+.right_image {float: right; width: 450px; border-radius:10px;}
+
+.center_image {float:center; width: 450px; border-radius:10px;}
+
+.left_circle {float:left; height:300px; width: 300px; border-radius: 150px; object-fit: cover; border: 1px solid rgb(18, 43, 126); margin-top:20px;}
+
+.right_circle {float:right; height:300px; width: 300px; border-radius: 150px; object-fit: cover; border: 1px solid rgb(18, 43, 126); margin-top:20px;}
+
+.docs { width:80%; height:500px;border: 1px solid rgb(18, 43, 126);}
+
+a.link {text-decoration: none; color: blue;}
+
+a.link:visited {text-decoration: none;color: blue;}
+
+.regular_text{width:75%; margin-left: auto; margin-right: auto;}
+
+.text_cont { width:1020px; height:325px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px; }
