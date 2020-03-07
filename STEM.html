@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang= "en">
 	<head>
 		<meta charset="UTF-8">
@@ -23,8 +23,6 @@
 
 			<nav class= "navbar navbar-default navbar-fixed-top">
 				<ul>
-
-					<a href="https://github.com/rumaisaabdulhai"><div class = 'b1'>GitHub</div></a>
 
 					<!--Home Button Link-->
 					<a href="index.html"><div class= "b1">Home</div></a>
@@ -89,7 +87,17 @@
 				<br><br><br><br>
 				<h3>Abstract</h3>
 
-				<p> Will be updated soon before February Fair. Come visit another time! </p>
+				<p> Mass shootings in schools and places of worship have claimed hundreds of lives in the United States during the last several years as there are no effective mechanisms
+					 to prevent them. This project investigates the use of autonomous indoor aerial vehicles to assist police in critical emergency tasks during school shootings. 
+					 The Robot Operating System (ROS) and Gazebo software platform were used to successfully simulate the navigation of an unmanned aerial vehicle (UAV) from a start 
+					 position to a goal position where the perpetrator and potential victims of a school shooting are likely to be found. First, a 2D occupancy map of a typical US 
+					 middle school’s indoor environment was achieved using a quadcopter, a 2D laser sensor, and the grid-mapping algorithm. Next, Adaptive Monte Carlo Localization 
+					 (AMCL) was used with Dijikstra’s global path planning and the Dynamic Window Approach (DWA) local planning algorithms to successfully navigate from a source 
+					 point to a destination while avoiding obstacles. The mapping process took approximately 7 hours to map a middle school with a main office, media center, 
+					 auditorium, cafeteria, courtyard, 4 hallways, and 12 classrooms. Finally, an onboard camera on the UAV was used to successfully capture and transmit 
+					 video from the scene in real time to a web server. This project serves as proof of concept that unmanned aerial vehicles or autonomous drones could 
+					 be used to inform law enforcement of the potential dangers during mass school shootings thereby enabling them to take immediate and appropriate actions to save human lives.
+				</p>
 
 			</div>
 
@@ -97,21 +105,54 @@
 			<div class="text_cont">
 				<div class="right_text">
 					<h4>Engineering Goal</h4>
-					<p> The goal of this project is to engineer an algorithm to simulate an indoor drone’s navigation 
-						to a point of disturbance, collect real-time information about the location and the perpetrators of an emergency,
-						and relay it to a trusted group of individuals such as law enforcement to enable them to save precious human lives.
+					<p> The goal of this project is to engineer algorithms for simulating the navigation of an indoor autonomous drone
+						 to the precise location of a mass shooting, the collection of real-time information about its perpetrators and
+						  potential victims, and its transmission to law enforcement to enable them to take appropriate action to save human lives.
 					</p>
 				</div>
 
 				<div class="left_text">
 					<h4>Engineering Problem</h4>
-					<p> Currently, there is a need for more effective mechanisms for law enforcement personnel 
-						to know real-time information about the precise location and perpetrator(s) of a mass 
-						shooting in order to significantly reduce the loss of life.
+					<p> There is an immediate need for law enforcement personnel to know real-time information about the precise location, 
+						perpetrator(s), and potential victims of a mass shooting in order to significantly reduce the loss of life.
 					</p>
 				</div>
 			</div>
 
+			<div style="text-align: center;"> <img height= "600px" src="Images/Materials.png" alt= "materials"></div>
+				
+
+			<br><br><br><br>
+			<h3>Application Design</h3>
+
+			<div class="wrap">
+				<img class= "left_image" src= "Images/ApplicationDesign.png"  alt= "RRT Picture">
+				<div class="right_text">
+					<p> To the left is my application design for this project. I chose to have 5 packages for the different
+						parts of my indoor drone application. I developed the code for my project using the programming language
+						Python and ROS, an operating system for autonomous robots.
+					</p>
+				</div>
+			</div>
+			<br><br><br><br>
+
+			<br><br><br><br>
+			<h3>STEM Thesis</h3>
+
+			<div class= "regular_text">
+
+				<p>
+					Below is my STEM Thesis:
+				</p>
+				<br><br>
+
+				<div style = "text-align:center">
+					<iframe class = "docs" src="docs/Thesis.pdf"></iframe>
+				</div>
+				
+			</div>
+			
+			<br><br><br><br>
 			<div class= "regular_text">
 
 				<p>Please visit my Github repository <a class= "link" href= "https://github.com/rumaisaabdulhai/quadcopter_sim">quadcopter_sim</a> to learn more about my STEM Project. <br> Below is a README of the package I created which contains my progress:</p>
@@ -131,7 +172,7 @@
 			<div class="wrap">
 				<img class= "right_image" src= "Images/RRT.png"  alt= "RRT Picture">
 				<div class="left_text">
-					<p> Path planning algorithms are neccessary to determine 
+					<p> Path planning algorithms are necessary to determine 
 						an optimal path from a chosen source point to a destination point and are used extensively in the fields of robotics. 
 						The Rapidly Exploring Random Tree (RRT) Algorithm caught my eye as it can determine 
 						a possible path in a very short amount of time. I used path planning after I mapped the indoor environment 

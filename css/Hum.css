@@ -8,7 +8,7 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
   height: 100vh;
   background:
   linear-gradient(#457b9db0, #457b9dd0),
-  url("../Images/trees.jpg") no-repeat;
+  url("../Images/trees.JPG") no-repeat;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
