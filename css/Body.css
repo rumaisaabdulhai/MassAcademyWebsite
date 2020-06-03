@@ -63,6 +63,10 @@ h4 {color:rgb(11, 27, 114); font-size: 30px; text-align:center; font-family: 'Al
 
 .left_text {float:left; height:325px; width:450px; padding-right: 35px; padding-left: 25px;}
 
+.text {float:center; width:900px; padding-right: 35px; padding-left: 25px;}
+
+.wrap_text { width:960px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px;}
+
 .left_image {float:left; width: 450px; border-radius:10px;}
 
 .right_image {float: right; width: 450px; border-radius:10px;}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* I learned how to make a tinted image from this website:
+https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+
+#section1 {
+  height: 100vh;
+  background:
+  linear-gradient(#457b9db0, #457b9dd0),
+  url("../Images/IMMC_Sim.png") no-repeat;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;}
