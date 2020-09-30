@@ -6,10 +6,9 @@
 
 		<link href="css/Nav.css" rel="stylesheet">
 		<link href="css/Body.css" rel="stylesheet">
-		<link href="css/STW.css" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Amaranth%7CArchitects+DaughterBoogaloo%7CBubblegum+Sans%7CComing+Soon%7CHandlee%7CPT+Sans+Narrow%7CPhilosopher" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,140 +18,121 @@
 
 	<body>
 
-		<div id = "section1">
+		<nav class= "navbar navbar-default navbar-fixed-top">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
+			<div class= "cont">
 
-				<div class= "cont">
-							
-							<!-- Academics Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Academics</button>
-									<div class="dropdown-content">
-										<a href="CS.html">CS</a>
-										<a href="Hum.html">Humanities</a>
-										<a href="Lang.html">Language</a>
-										<a href="Math.html">Math</a>
-										<a href="Physics.html">Physics</a>
-										<a href="STEM_I.html">STEM I</a>
-										<a href="STEM_II.html">STEM II</a>
-										<a href="STW.html">STW</a>
-									</div>
-							</div>
-
-							<!-- Personal Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Personal</button>
-									<div class="dropdown-content">
-										<a href="Hobbies.html">Hobbies</a>
-										<a href="Extracurriculars.html">Extracurriculars</a>
-										<a href="Service.html">Community Service</a>
-									</div>
-							</div>
-
-							<!--Home Button Link-->
-							<a class= "home_a" href="index.html">Home</a>
-					
+				<!-- Senior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Senior Year</button>
+						<div class="dropdown-content">
+							<a href="WPICourses.html">WPI Courses</a>
+							<a href="SISP.html">Senior Independent Project</a>
+						</div>
+				</div>
+				
+				<!-- Junior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Junior Year</button>
+						<div class="dropdown-content">
+							<a href="CS.html">Computer Science</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
+							<a href="Math.html">Math</a>
+							<a href="Physics.html">Physics</a>
+							<a href="STEM_I.html">STEM I</a>
+							<a href="STEM_II.html">STEM II</a>
+							<a href="STW.html">STW</a>
+						</div>
 				</div>
 
-			</nav>
-			
-			<br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br>
-			<h1>Science & Technical Writing</h1>
+				<!-- Personal Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Personal</button>
+						<div class="dropdown-content">
+							<a href="Hobbies.html">Hobbies</a>
+							<a href="Extracurriculars.html">Extracurriculars</a>
+							<a href="Service.html">Community Service</a>
+							<a href="Contact.html">Contact Me</a>
+						</div>
+				</div>
 
-			<div class="arrow_div">
-				<a href="#section2">
-				<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png"></a>
+				<!--Home Button Link-->
+				<a class= "home_a" href="index.html">Home</a>
+				
 			</div>
 
-		</div>
+		</nav>
 
 		<div id="section2">
 
+			<br><br>
+			<h2>Science & Technical Writing</h2>
+
+			<h3>Overview</h3>
 
 			<div class = "regular_text">
-
-				<br>
-				<br>
-				<h2>Science & Technical Writing</h2>
-
-				<br><br><br><br>
-				<h3>Overview</h3>
-
 				<p> Science & Technical Writing (STW) is taught by Dr. Crowthers. In this class, we work on writing assignments
 					for our STEM I Project and learn various writing techniques and strategies.
 				</p>
+			</div>
 
-				<br><br><br><br>
-				<h3>Project Brief</h3>
+			<h3>Project Brief</h3>
 
-				<p> Below is the Project Brief I had to complete prior to beginning research on my STEM I Project about using
+			<div class = "regular_text">
+				<p> <a class= "link" href= "docs/Brief.pdf">Here</a> is the Project Brief I had to complete prior to beginning research on my STEM I Project about using
 					autonomous drones to assist law enforcement during mass shootings. </p>
+			</div>
 
-				<br><br>
-				
-				<div style = "text-align:center">
-					<iframe class = "docs" src="docs/Brief.pdf"></iframe>
-				</div>
+			<h3>The Drone</h3>
 
-				<br><br><br><br>
-				<h3>The Drone</h3>
+			<div class="wrap">
+				<img class= "right_image" src= "Images/Drone1.png"  alt= "Drone Picture">
+				<p> For my project, I used a simulated quadcopter with a Hokuyo 2D Lidar sensor. With the drone,
+					I was able to map a realistic indoor school environment and allow the drone to navigate from a source
+					to a destination point. To learn out more about my STEM Project, click <a class= "link" href= "STEM.html">here</a>.
+				</p>
+			</div>
 
-				<div class="wrap">
-					<img class= "right_image" src= "Images/Drone1.png"  alt= "Drone Picture">
-					<div class="left_text">
-						<p> For my project, I used a simulated quadcopter with a Hokuyo 2D Lidar sensor. With the drone,
-							I was able to map a realistic indoor school environment and allow the drone to navigate from a source
-							to a destination point. To learn out more about my STEM Project, click <a class= "link" href= "STEM.html">here</a>.
-						</p>
-					</div>
-				</div>
+			<h3>Literature Review</h3>
 
-				<br><br><br><br>
-				<h3>Literature Review</h3>
-
+			<div class = "regular_text">
 				<p> Before working on any science or engineering project, it is essential to conduct research about the
 					work being done in the field to understand what is already implemented and the current
 					challenges researchers are facing. All of the preliminary research is captured in a Literature Review.
 					Conducting a Literature Review gives a strong purpose to our STEM projects at Mass Academy. Below is my Literature Review
-					for my project in the field of autonomous robots and drones. You can also view it <a class= "link" href= "docs/LitRev.pdf">here</a>.</p>
-
+					for my project in the field of autonomous robots and drones. You can also view it <a class= "link" href= "docs/LitRev.pdf">here</a>.
+				</p>
 				<br><br>
-				
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/LitRev.pdf"></iframe>
 				</div>
-
-				<br><br><br><br>
-				<h3>Project Notes</h3>
-
-				<p> Throughout B-Term, we were required to keep notes on all the relevant sources related to our STEM Project.
-					Below is my Project Notes file. You can also view it <a class= "link" href= "docs/ProjNotes.pdf">here</a>.</p>
-
-				<br><br>
+			</div>
 				
+			<h3>Project Notes</h3>
+			
+			<div class = "regular_text">
+				<p> Throughout B-Term, we were required to keep notes on all the relevant sources related to our STEM Project.
+					Below is my Project Notes file. You can also view it <a class= "link" href= "docs/ProjNotes.pdf">here</a>.
+				</p>
+				<br><br>
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/ProjNotes.pdf"></iframe>
 				</div>
+			</div>
 
-				<br><br><br><br>
-				<h3>Statistics Presentations</h3>
+			<h3>Statistics Presentations</h3>
 
-				<p> In class, we research different statistical methods and prepared a presentation for the class. My group
+			<div class = "regular_text">
+				<p> In class, we researched different statistical methods and prepared a presentation for the class. My group
 					did the Mann Whitney U Test, which determines whether two independent samples are actually part of the same
 					population. For our STEM I Thesis we will need to use statistical methods in our Data Analysis and Results Sections.
 					Below is the presentation that my group delivered to the class. We also made an <a class= "link" href= "https://create.piktochart.com/output/42673779-mann-whitney-u-test">infographic</a>
-					which provides a quick guide on how and when to use the test. </p>
-
+					which provides a quick guide on how and when to use the test. 
+				</p>
 				<br><br>
-				
 				<div style = "text-align:center">
-					<iframe class = "docs" src="docs/MannWhitney.pdf"></iframe>
-				</div>
-
-				<br><br><br><br>
-			
+					<iframe class = "docs" src="docs/MannWhitney.pdf"></iframe></div>
 			</div>
 
 		</div>

@@ -13,7 +13,7 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 } */
 
 .navbar-default {
-    padding-top: 15px;
+
     padding-right:15px;
     width:100%;
     position:fixed;
@@ -26,8 +26,8 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 }
 
 .navbar-default.scrolled {
-    background:#0d2c58; } 
-  
+    background:#6B498C; } 
+
 .navbar a {
     float: right;
     color: white;
@@ -40,7 +40,7 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 .dropdown {
     float: right;
     overflow: hidden;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
   
 .dropdown .dropbtn {
@@ -48,7 +48,7 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
     border: none;
     outline: none;
     color: white;
-    padding: 14px 35px;
+    padding: 20px 35px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -57,19 +57,20 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 /*  */
 .dropbtn { 
     border-radius:5px;
+    text-shadow: #354270 1px 0 10px;
 }
 
 .home_a {
     font-size: 20px;
     border-radius:5px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     width: 90px;
     text-align: center;
+    text-shadow: #354270 1px 0 10px;
 }
-/*  */
   
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:#0d2c58;
+    background-color:#354270;
 }
   
 .dropdown-content {
@@ -80,7 +81,7 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
     z-index: 1;
 
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;

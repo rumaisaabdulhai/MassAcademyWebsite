@@ -13,8 +13,8 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
 #section1 {
   height: 100vh;
   background:
-  linear-gradient(#457b9db0, #457b9dd0),
-  url("../Images/MeAndDrone.jpg") no-repeat;
+  radial-gradient(#ccb0d988, #6595bf94),
+  url("../Images/MeWedding2.jpg") no-repeat;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
@@ -27,7 +27,6 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
 
 .arrow_down { 
   height:90px;
-  margin-top:200px;
   /* -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite; */
   animation: bounce 2s infinite;
@@ -45,31 +44,29 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
     }
     }
 
-h1 {color:rgba(255,255,255,1.00); font-size: 65px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
+h1 {color: white; text-shadow: #3542708a 1px 0 10px; font-size: 65px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
 
-h2 {color:rgb(11, 27, 114); font-size: 60px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
+h2 {color:#354270; font-size: 60px; text-align:center; font-family: 'Alegreya Sans', sans-serif;}
 
-body {margin: 0px; padding:0px;}
+body {margin: 0px; padding:0px; background:
+  radial-gradient(#CCB0D9 , #6595BF)}
 
-.wrap { width:960px; height:350px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px;}
+.wrap { width:75%; height:400px; margin-left: auto; margin-right: auto;
+  border-radius:20px; background-color: rgba(255, 255, 255, 0.50); padding:25px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3); margin-bottom:50px;}
 
-p {color:rgb(11, 27, 114);font-size: 22px; margin:0px; font-family: 'Open Sans', sans-serif;}
+p {color:#354270;font-size: 25px; margin:0px; margin-bottom: 10px; font-family: 'Alegreya Sans', sans-serif;}
 
-h3 {color:rgb(11, 27, 114); font-size: 40px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
+h3 {color:#354270; font-size: 40px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
 
-h4 {color:rgb(11, 27, 114); font-size: 30px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
-
-.right_text {float:right; height:325px; width:450px; padding-right: 25px; padding-left: 35px;}
-
-.left_text {float:left; height:325px; width:450px; padding-right: 35px; padding-left: 25px;}
+h4 {color:#354270; font-size: 30px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
 
 .text {float:center; width:900px; padding-right: 35px; padding-left: 25px;}
 
 .wrap_text { width:960px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px;}
 
-.left_image {float:left; width: 450px; border-radius:10px;}
+.left_image {float:left; width:40%; border-radius:10px; margin-right:20px;}
 
-.right_image {float: right; width: 450px; border-radius:10px;}
+.right_image {float: right; width:40%; border-radius:10px; margin-left:20px;}
 
 .center_image {width: 450px; border-radius:10px;}
 
@@ -83,6 +80,7 @@ a.link {text-decoration: none; color: blue;}
 
 a.link:visited {text-decoration: none;color: blue;}
 
-.regular_text{width:75%; margin-left: auto; margin-right: auto;}
+.regular_text{width:75%; margin-left: auto; margin-right: auto;
+  border-radius:20px; background-color: rgba(255, 255, 255, 0.50); padding:25px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3); margin-bottom:50px;}
 
 .text_cont { width:1020px; height:325px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px; }

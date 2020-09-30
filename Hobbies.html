@@ -6,10 +6,9 @@
 
 		<link href="css/Nav.css" rel="stylesheet">
 		<link href="css/Body.css" rel="stylesheet">
-		<link href="css/Hobbies.css" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Amaranth%7CArchitects+DaughterBoogaloo%7CBubblegum+Sans%7CComing+Soon%7CHandlee%7CPT+Sans+Narrow%7CPhilosopher" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,65 +18,70 @@
 
 	<body>
 
-		<div id = "section1">
+		<nav class= "navbar navbar-default navbar-fixed-top">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
+			<div class= "cont">
 
-				<div class= "cont">
-							
-							<!-- Academics Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Academics</button>
-									<div class="dropdown-content">
-										<a href="CS.html">CS</a>
-										<a href="Hum.html">Humanities</a>
-										<a href="Lang.html">Language</a>
-										<a href="Math.html">Math</a>
-										<a href="Physics.html">Physics</a>
-										<a href="STEM_I.html">STEM I</a>
-										<a href="STEM_II.html">STEM II</a>
-										<a href="STW.html">STW</a>
-									</div>
-							</div>
-
-							<!-- Personal Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Personal</button>
-									<div class="dropdown-content">
-										<a href="Hobbies.html">Hobbies</a>
-										<a href="Extracurriculars.html">Extracurriculars</a>
-										<a href="Service.html">Community Service</a>
-									</div>
-							</div>
-
-							<!--Home Button Link-->
-							<a class= "home_a" href="index.html">Home</a>
-					
+				<!-- Senior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Senior Year</button>
+						<div class="dropdown-content">
+							<a href="WPICourses.html">WPI Courses</a>
+							<a href="SISP.html">Senior Independent Project</a>
+						</div>
+				</div>
+				
+				<!-- Junior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Junior Year</button>
+						<div class="dropdown-content">
+							<a href="CS.html">Computer Science</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
+							<a href="Math.html">Math</a>
+							<a href="Physics.html">Physics</a>
+							<a href="STEM_I.html">STEM I</a>
+							<a href="STEM_II.html">STEM II</a>
+							<a href="STW.html">STW</a>
+						</div>
 				</div>
 
-			</nav>
+				<!-- Personal Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Personal</button>
+						<div class="dropdown-content">
+							<a href="Hobbies.html">Hobbies</a>
+							<a href="Extracurriculars.html">Extracurriculars</a>
+							<a href="Service.html">Community Service</a>
+							<a href="Contact.html">Contact Me</a>
+						</div>
+				</div>
 
-			<br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br>
-			
-			<h1>My Hobbies</h1>
-
-			<div class="arrow_div">
-				<a href="#section2">
-					<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png">
-				</a>
+				<!--Home Button Link-->
+				<a class= "home_a" href="index.html">Home</a>
+				
 			</div>
-			
-		</div>
+
+		</nav>
 
 		<div id="section2">
 
-			<br>
-			<br>
+			<br><br>
 			<h2>Hobbies</h2>
 
+			<div class="wrap">
+				<img class= "left_image" src= "Images/AnimMe.png" alt="drawing">
+				<p> Drawing has always been near and dear to my heart. It has become a way for me to de-stress 
+					when I have a lot of work. I like to draw people, animals, and flowers. Most of the time, I stick 
+					to an animated style of drawing, but I do enjoy a bit of realism. Someday, I hope to create a manga of my own. 
+					To the left is a drawing of me and my lovebird Petite. Click 
+					<a class= "link" href="https://youtu.be/udfM3Xeph-I">here</a> to see a traditional speedpaint of me 
+					drawing my lovebirds.
+				</p>
+			</div>
+
 			<div class= "wrap">
-				<div class="right_text">
+				<img class= "right_image" src= "Images/bird.jpeg" alt="My Cute Lovebird">
 					<p> With my mom, I take care of twelve lovebirds, 
 						making them special food and playing with them. 
 						I raised six of them since they hatched out of 
@@ -86,49 +90,27 @@
 						holding them on my finger and letting them fly in my 
 						house relieves me of all the accumulated stress from school.
 					</p>
-				</div>
-
-					<img class= "left_image" src= "Images/bird.jpeg" alt="My Cute Lovebird">
 			</div>
 
 			<div class="wrap">
-				<div class="left_text">
-					<p> I love making food for my friends and family. 
-						Usually, I bake cheesecakes and cupcakes for my sisters' and parents' birthdays.
-						I also make lobster bisque with my dad. 
-						I've recently been obssessed with chia seed pudding ever since 
-						one of my friends recommended it to me.
-					</p>
-				</div>
-
-					<img class= "right_image" src= "Images/Cupcake.jpg" alt="cupcake">
+				<img class= "left_image" src= "Images/Cupcake.jpg" alt="cupcake">
+				<p> I love making food for my friends and family. Usually, I bake cheesecakes and cupcakes 
+					for my sisters' and parents' birthdays. I also make lobster bisque with my dad. 
+					I've recently been making passion fruit boba and Indian chaats with my sister as a late night snack.
+				</p>
 			</div>
-
-			<div class="wrap">
-					<div class="right_text">
-						<p> Drawing has always been near 
-							and dear to my heart. It has become a way for me to de-stress when I have a lot of work. I like to draw people, 
-							animals, and flowers. I stick to an animated style of drawing most of the time, but I do enjoy a bit of 
-							realism. I also doodle a lot on my school notebooks and sheets, so if you find that little eye in the corner 
-							it's my signature.
-						</p>
-					</div>
 			
-						<img class= "left_image" src= "Images/autumn_girl.PNG" alt="drawing">
-				</div>
-			
-			<div class="wrap">
-					<div class="left_text">
-						<p> In 8th grade, I built a 3D printer using Lego parts and a microcontroller. I had previously built
-							a rubiks cube solver in 6th grade wanted to see what else I could do with existing parts I had at home and a 3D pen.
-							I learned a lot about how a 3D printer prints layer by layer. This was how my interest in robotics began. It was also at this time that
-							my science teacher recommended me to join the robotics team for high school. 
-						</p>
-					</div>
-		
+			<div class="regular_text">
+				<p> My interest in robotics started in 6th grade when I visited the Liberty Science Center in New Jersey. 
+					After building a rubiks cube solver using Lego Mindstorms, I wanted to see what else I could do with 
+					existing parts I had at home and a 3D pen. In 8th grade, I built a 3D printer using Lego parts and a 
+					microcontroller. I learned a lot about how a 3D printer prints layer by layer.
+				</p>
+				<div style = "text-align:center">
 					<iframe width="395" height="296" src="https://www.youtube.com/embed/HC2NrjVff3o" allowfullscreen></iframe>
-
 				</div>
+			</div>
+
 		</div>
 
 	</body>

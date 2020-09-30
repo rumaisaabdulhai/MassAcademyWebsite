@@ -6,10 +6,9 @@
 
 		<link href="css/Nav.css" rel="stylesheet">
 		<link href="css/Body.css" rel="stylesheet">
-		<link href="css/CS.css" rel="stylesheet">
 
-		<link href="https://fonts.googleapis.com/css?family=Amaranth%7CArchitects+DaughterBoogaloo%7CBubblegum+Sans%7CComing+Soon%7CHandlee%7CPT+Sans+Narrow%7CPhilosopher" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,55 +18,51 @@
 
 	<body>
 
-		<div id = "section1">
+		<nav class= "navbar navbar-default navbar-fixed-top">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
+			<div class= "cont">
 
-				<div class= "cont">
-							
-							<!-- Academics Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Academics</button>
-									<div class="dropdown-content">
-										<a href="CS.html">Computer Science</a>
-										<a href="Hum.html">Humanities</a>
-										<a href="Lang.html">Language</a>
-										<a href="Math.html">Math</a>
-										<a href="Physics.html">Physics</a>
-										<a href="STEM_I.html">STEM I</a>
-										<a href="STEM_II.html">STEM II</a>
-										<a href="STW.html">STW</a>
-									</div>
-							</div>
-
-							<!-- Personal Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Personal</button>
-									<div class="dropdown-content">
-										<a href="Hobbies.html">Hobbies</a>
-										<a href="Extracurriculars.html">Extracurriculars</a>
-										<a href="Service.html">Community Service</a>
-									</div>
-							</div>
-
-							<!--Home Button Link-->
-							<a class= "home_a" href="index.html">Home</a>
-					
+				<!-- Senior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Senior Year</button>
+						<div class="dropdown-content">
+							<a href="WPICourses.html">WPI Courses</a>
+							<a href="SISP.html">Senior Independent Project</a>
+						</div>
+				</div>
+				
+				<!-- Junior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Junior Year</button>
+						<div class="dropdown-content">
+							<a href="CS.html">Computer Science</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
+							<a href="Math.html">Math</a>
+							<a href="Physics.html">Physics</a>
+							<a href="STEM_I.html">STEM I</a>
+							<a href="STEM_II.html">STEM II</a>
+							<a href="STW.html">STW</a>
+						</div>
 				</div>
 
-			</nav>
+				<!-- Personal Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Personal</button>
+						<div class="dropdown-content">
+							<a href="Hobbies.html">Hobbies</a>
+							<a href="Extracurriculars.html">Extracurriculars</a>
+							<a href="Service.html">Community Service</a>
+							<a href="Contact.html">Contact Me</a>
+						</div>
+				</div>
 
-			<br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br>
-			
-			<h1>Computer Science</h1>
-
-			<div class="arrow_div">
-				<a href="#section2">
-				<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png"></a>
+				<!--Home Button Link-->
+				<a class= "home_a" href="index.html">Home</a>
+				
 			</div>
 
-		</div>
+		</nav>
 
 		<div id="section2">
 
@@ -75,20 +70,20 @@
 			<h2>Advanced Computer Science</h2>
 
 			<div class = "regular_text">
-				
 				<p> 
 					Computer Science is taught by Mrs. Taricco. In Mass Academy, few students who have prior computer science 
 					experience embark on an independent project. For my project, I chose to explore the world of machine learning.  
 					I performed Image Classification where I evaluated two Machine Learning techniques, namely
 					the K-Nearest Neighbor (KNN) Classifier and Convolutional Neural Networks (CNNs). I worked on it throughout B term
-					and C Term. In D term, I embarked on an Apps For Good Project to help high school students find community service opportunities.
+					and C Term. In D term, I embarked on an Apps For Good Project with 2 other MAMS students to help high school 
+					students find community service opportunities.
 				</p>
 
-				<br><br><br><br>
-				<h3>Image Classification Project</h3>
+			</div>
 
-				<br><br>
-
+			<h3>Image Classification Project</h3>
+			
+			<div class = "regular_text">
 				<p>
 					I have been fascinated with how image classification works in the field of computer vision 
 					as it has various applications in medicine, security, and self-driving cars. For example, doctors use image classification in 
@@ -111,15 +106,48 @@
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/CS_Presentation_Abdulhai.pdf"></iframe>
 				</div>
+			
+			</div>
 
-				<br><br><br><br>
-				<h3>Apps For Good Project</h3>
+			<h3>Apps For Good Project</h3>
 
-				<br><br>
+			<div class= "regular_text">
+				<p> During D Term, my team and I developed an Android Studio Application in Java called HelpOut to help high school students search 
+					for volunteer opportunities that interest them. You can find more information on our project below.</p>
+			</div>
 
+			<h4>The Problem</h4>
+
+			<div class= "regular_text">
+				<p>
+					Many students with mandatory community service requirements or students looking to give back to their 
+					community struggle to find volunteer opportunities that interest them. There are 16% of potential volunteers who
+					do not volunteer due to a lack of nearby volunteer opportunities (Kotecha). Another common reason why people do not 
+					volunteer is a lack of interesting volunteer opportunities (Youtopoulus). Therefore, there is a need to 
+					provide a platform where potential volunteers can be fully aware of interesting volunteer opportunities nearby and 
+					organizations can market their opportunities. Moreover, many nonprofits and other organizations often struggle to pick up 
+					interested volunteers. We believe that this arises due to the lack of a common platform between volunteers and organizations. 
+					Indeed, the problem is the accessibility of community service opportunities for both people looking to volunteer 
+					and organizations that could use potential volunteers.
+				</p>
+			</div>
+
+			<h4>Target Audience</h4>
+
+			<div class= "regular_text">
+				<p>
+					HelpOut is targeted towards students who want to volunteer in their communities, but cannot find the right opportunity 
+					for them. The app is also aimed at organizations looking for volunteers for events, fundraisers, and as 
+					long-term helpers. HelpOut would allow not only for students to find a place to enjoy volunteering, 
+					but also allow organizations to gain volunteers that are eager to work in a certain field.
+				</p>
+			</div>
+
+			<h4>Features of Our App</h4>
+
+			<div class = "regular_text">
 				<p> 
-					During D Term, I developed an Android Studio Application in Java to help high school students search 
-					for volunteer opportunities that interest them. The first main feature of the app is that students may sort 
+					The first main feature of the app is that students may sort 
 					opportunities by location and by name. The second is that they can save opportunities to view later by marking 
 					it as favorite. First, I used Web Scraping to obtain the title, description, location, contact 
 					information, and more for about 135 volunteer opportunities and created a custom database. I stored the 
@@ -127,37 +155,24 @@
 					and displays the data from Firebase. You can view the Java code 
 					<a class= "link" href= "https://github.com/rumaisaabdulhai/HelpOut">here</a>, and the Web Scraping code 
 					<a class= "link" href= "https://github.com/rumaisaabdulhai/WebScraping">here</a>.
+					<br><br>
+					The video below shows a demo of the application. When the user opens the app for the first time, they
+					are brought to a welcome screen that walks them through the app's features. They are then prompted to create 
+					an account or sign in. Any opportunities that they favorite or unfavorite will be updated and saved on the cloud and 
+					accessible from any device as long as they can sign in.
 				</p>
-
-				<br><br>
-
-				<div class= "wrap">
-					<div class="right_text">
-						<p> 
-							The left video shows a demo of the application. When the user opens the app for the first time, they
-							are brought to a welcome screen that walks them through the app's features. They are then prompted to create 
-							an account or sign in. Any opportunities that they favorite or unfavorite will be updated and saved on the cloud and 
-							accessible from any device as long as they can sign in.
-						</p>
-					</div>
-	
+				<div style = "text-align:center">
 					<iframe width="395" height="296" src="https://www.youtube.com/embed/nzuyepVjZHA" allowfullscreen></iframe>
 				</div>
+			</div>
 
-				<br><br>
-
+			<div class= "regular_text">
 				<p> Below are the slides we presented for the virtual Apps For Good Fair. </p>
-
-				<br><br>
-
+				<br>
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/AFG_Pres.pdf"></iframe>
 				</div>
-
-				<br><br><br><br>
-			
 			</div>
-
 
 		</div>	
 

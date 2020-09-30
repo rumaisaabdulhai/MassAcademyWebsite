@@ -6,10 +6,9 @@
 
 		<link href="css/Nav.css" rel="stylesheet">
 		<link href="css/Body.css" rel="stylesheet">
-		<link href="css/STEM_I.css" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Amaranth%7CArchitects+DaughterBoogaloo%7CBubblegum+Sans%7CComing+Soon%7CHandlee%7CPT+Sans+Narrow%7CPhilosopher" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,67 +18,60 @@
 
 	<body>
 
-		<div id = "section1">
+		<nav class= "navbar navbar-default navbar-fixed-top">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
+			<div class= "cont">
 
-				<div class= "cont">
-							
-							<!-- Academics Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Academics</button>
-									<div class="dropdown-content">
-										<a href="CS.html">Computer Science</a>
-										<a href="Hum.html">Humanities</a>
-										<a href="Lang.html">Language</a>
-										<a href="Math.html">Math</a>
-										<a href="Physics.html">Physics</a>
-										<a href="STEM_I.html">STEM I</a>
-										<a href="STEM_II.html">STEM II</a>
-										<a href="STW.html">STW</a>
-									</div>
-							</div>
-
-							<!-- Personal Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Personal</button>
-									<div class="dropdown-content">
-										<a href="Hobbies.html">Hobbies</a>
-										<a href="Extracurriculars.html">Extracurriculars</a>
-										<a href="Service.html">Community Service</a>
-									</div>
-							</div>
-
-							<!--Home Button Link-->
-							<a class= "home_a" href="index.html">Home</a>
-					
+				<!-- Senior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Senior Year</button>
+						<div class="dropdown-content">
+							<a href="WPICourses.html">WPI Courses</a>
+							<a href="SISP.html">Senior Independent Project</a>
+						</div>
+				</div>
+				
+				<!-- Junior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Junior Year</button>
+						<div class="dropdown-content">
+							<a href="CS.html">Computer Science</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
+							<a href="Math.html">Math</a>
+							<a href="Physics.html">Physics</a>
+							<a href="STEM_I.html">STEM I</a>
+							<a href="STEM_II.html">STEM II</a>
+							<a href="STW.html">STW</a>
+						</div>
 				</div>
 
-			</nav>
-			
-			<br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br>
-			
-			<h1>My STEM I Project</h1>
+				<!-- Personal Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Personal</button>
+						<div class="dropdown-content">
+							<a href="Hobbies.html">Hobbies</a>
+							<a href="Extracurriculars.html">Extracurriculars</a>
+							<a href="Service.html">Community Service</a>
+							<a href="Contact.html">Contact Me</a>
+						</div>
+				</div>
 
-			<div class="arrow_div">
-				<a href="#section2">
-				<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png"></a>
+				<!--Home Button Link-->
+				<a class= "home_a" href="index.html">Home</a>
+				
 			</div>
 
-		</div>
+		</nav>
 
 		<div id="section2">
 
+			<br><br>
+			<h2>Advanced STEM I</h2>
+
+			<h3>Simulation of an Indoor Autonomous Drone for Assisting Police in Mass Shootings</h3>
+
 			<div class = "regular_text">
-
-				<br>
-				<br>
-				<h2>Simulation of an Indoor Autonomous Drone for Assisting Police in Mass Shootings</h2>
-
-				<br><br><br><br>
-				<h3>Overview</h3>
-
 				<p> 
 					The STEM I and II Courses are taught by Dr. Crowthers at Mass Academy. In STEM I, Mass Academy juniors are required to conduct a 
 					5-month long science or engineering project. In A Term, we brainstormed ideas for our STEM Project. In B Term, we conducted a Literature Review 
@@ -87,108 +79,72 @@
 					to advisors and Mass Academy seniors. We also have a February Fair where we present our STEM Project to the public. I am working
 					on an engineering project using autonomous drones to assist law enforcement during mass shootings and save precious lives.
 				</p>
+			</div>
 
-				<br><br><br><br>
-				<h3>Abstract</h3>
+			<h3>Project Poster</h3>
 
-				<p> 
-					Mass school shootings have claimed hundreds of lives in the United States as there are no effective mechanisms to prevent them. 
-					This project investigates the use of autonomous indoor aerial vehicles to assist law enforcement during mass school shootings. 
-					The Robot Operating System (ROS), the Gazebo platform, and Python were used to develop an autonomous indoor drone application 
-					that allows a drone to navigate from a start position to a destination inside a school where the perpetrator and potential 
-					victims are likely to be found. First, a 2D probabilistic occupancy grid-map of a US middle school’s indoor environment was 
-					achieved using a quadcopter, 2D Lidar, and grid-mapping algorithm. Next, Adaptive Monte-Carlo Localization (AMCL) was used with 
-					Dijkstra’s global path planning and Dynamic-Window Approach (DWA) local planning algorithms to enable the drone to navigate from 
-					the starting position towards the goal position while avoiding obstacles. The mapping process took approximately 7 hours for a 
-					middle school with the main office, media center, auditorium, cafeteria, courtyard, 4 hallways, and 12 classrooms. The drone 
-					navigated autonomously from the courtyard to a classroom 43.37 m away in 171 seconds at an average speed of 0.254 m/s. Finally, 
-					an onboard camera on the UAV successfully captured and transmitted video from the scene in real-time to a web server. This 
-					application serves as proof of the concept that indoor drones could be used to inform law enforcement of potential dangers 
-					during school shootings, enabling them to take appropriate actions to save precious lives.
+			<div class = "regular_text">
+				<p>
+					In February, we presented our projects at WPI in front of judges. I am grateful that I had the opportunity to represent 
+					Mass Academy with 8 other students at the Massachusetts State Science Fair (MSEF) held virtually in April. Below is the poster 
+					I presented at MSEF. You can also find it <a class= "link" href= "docs/STEM_I_Poster.pdf">here</a>. My project won 3rd place at the fair. 
+					I also presented my STEM I project at the National Consortium of Secondary STEM Schools (NCSSS) Conference held in June.
 				</p>
-
-			</div>
-
-			<br><br><br><br>
-			<div class="text_cont">
-				<div class="right_text">
-					<h4>Engineering Goal</h4>
-					<p> The goal of this project is to engineer algorithms for simulating the navigation of an indoor autonomous drone
-						 to the precise location of a mass shooting, the collection of real-time information about its perpetrators and
-						  potential victims, and its transmission to law enforcement to enable them to take appropriate action to save human lives.
-					</p>
-				</div>
-
-				<div class="left_text">
-					<h4>Engineering Problem</h4>
-					<p> There is an immediate need for law enforcement personnel to know real-time information about the precise location, 
-						perpetrator(s), and potential victims of a mass shooting in order to significantly reduce the loss of life.
-					</p>
+				<br>
+				<div style = "text-align:center">
+					<iframe class = "docs" src="docs/STEM_I_Poster.pdf"></iframe>
 				</div>
 			</div>
 
-			<div style="text-align: center;"> <img height= "600px" src="Images/Materials.png" alt= "materials"></div>
-				
+			<h3>Project Video</h3>
 
-			<br><br><br><br>
-			<h3>Application Design</h3>
-
-			<div class="wrap">
-				<img class= "left_image" src= "Images/ApplicationDesign.png"  alt= "RRT Picture">
-				<div class="right_text">
-					<p> To the left is my application design for this project. I chose to have 5 packages for the different
-						parts of my indoor drone application. I developed the code for my project using the programming language
-						Python and ROS, an operating system for autonomous robots.
-					</p>
+			<div class = "regular_text">
+				<p>
+					Below is the 5 minute video I submitted to MSEF that gives a 5 minute overview of my project. Please visit my YouTube <a class= "link" href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg">channel</a> to see more videos 
+					on my STEM project.
+				</p>
+				<br>
+				<div style = "text-align:center">
+					<iframe width="395" height="296" src="https://www.youtube.com/embed/-c8N1ncmt2Q" allowfullscreen></iframe>
 				</div>
 			</div>
-			<br><br><br><br>
 
-			<br><br><br><br>
 			<h3>STEM Thesis</h3>
 
 			<div class= "regular_text">
-
 				<p>
-					Below is my STEM Thesis:
+					As part of our STEM I Project, we had to write a thesis, or research paper. In the 
+					<a class= "link" href= "docs/Thesis.pdf">document</a>, you can find the abstract, 
+					literature review, materials and methods, results, discussion and conclusion, and appendices.
 				</p>
 				<br><br>
-
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/Thesis.pdf"></iframe>
 				</div>
-				
 			</div>
 			
-			<br><br><br><br>
+			<h3>The Code</h3>
+
 			<div class= "regular_text">
-
-				<p>Please visit my Github repository <a class= "link" href= "https://github.com/rumaisaabdulhai/quadcopter_sim">quadcopter_sim</a> to learn more about my STEM Project. <br> Below is a README of the package I created which contains my progress:</p>
-				
-				<br><br>
-
+				<p>Please visit my Github repository <a class= "link" href= "https://github.com/rumaisaabdulhai/quad_sim">quad_sim</a> for the 
+					code and to learn more about my STEM Project. <br> Below is a README of the package I created which contains the documentation:</p>
+				<br>
 				<div style = "text-align:center">
 					<iframe class = "docs" src="stemreadme.html"></iframe>
 				</div>
-				
 			</div>
 
-
-			<br><br><br><br>
 			<h3>RRT Path Planning Implementation</h3>
 
 			<div class="wrap">
 				<img class= "right_image" src= "Images/RRT.png"  alt= "RRT Picture">
-				<div class="left_text">
-					<p> Path planning algorithms are necessary to determine 
-						an optimal path from a chosen source point to a destination point and are used extensively in the fields of robotics. 
-						The Rapidly Exploring Random Tree (RRT) Algorithm caught my eye as it can determine 
-						a possible path in a very short amount of time. I used path planning after I mapped the indoor environment 
-						so my drone could navigate from one location to another. I coded the RRT Algorithm in a simple 2D Python Simulator called Pygame. You can find my code <a class= "link" href= "https://github.com/rumaisaabdulhai/PathPlanning/blob/master/rrt_modified.py">here</a>.
-					</p>
-				</div>
+				<p> Path planning algorithms are necessary to determine 
+					an optimal path from a chosen source point to a destination point and are used extensively in the fields of robotics. 
+					The Rapidly Exploring Random Tree (RRT) Algorithm caught my eye as it can determine 
+					a possible path in a very short amount of time. I used path planning after I mapped the indoor environment 
+					so my drone could navigate from one location to another. I coded the RRT Algorithm in a simple 2D Python Simulator called Pygame. You can find my code <a class= "link" href= "https://github.com/rumaisaabdulhai/PathPlanning/blob/master/rrt_modified.py">here</a>.
+				</p>
 			</div>
-			<br><br><br><br>
 				
 		</div>
 

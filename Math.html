@@ -6,10 +6,9 @@
 
 		<link href="css/Nav.css" rel="stylesheet">
 		<link href="css/Body.css" rel="stylesheet">
-		<link href="css/Math.css" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Amaranth%7CArchitects+DaughterBoogaloo%7CBubblegum+Sans%7CComing+Soon%7CHandlee%7CPT+Sans+Narrow%7CPhilosopher" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,55 +18,51 @@
 
 	<body>
 
-		<div id = "section1">
+		<nav class= "navbar navbar-default navbar-fixed-top">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
+			<div class= "cont">
 
-				<div class= "cont">
-							
-							<!-- Academics Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Academics</button>
-									<div class="dropdown-content">
-										<a href="CS.html">Computer Science</a>
-										<a href="Hum.html">Humanities</a>
-										<a href="Lang.html">Language</a>
-										<a href="Math.html">Math</a>
-										<a href="Physics.html">Physics</a>
-										<a href="STEM_I.html">STEM I</a>
-										<a href="STEM_II.html">STEM II</a>
-										<a href="STW.html">STW</a>
-									</div>
-							</div>
-
-							<!-- Personal Dropdown -->
-							<div class="dropdown">
-								<button class="dropbtn">Personal</button>
-									<div class="dropdown-content">
-										<a href="Hobbies.html">Hobbies</a>
-										<a href="Extracurriculars.html">Extracurriculars</a>
-										<a href="Service.html">Community Service</a>
-									</div>
-							</div>
-
-							<!--Home Button Link-->
-							<a class= "home_a" href="index.html">Home</a>
-					
+				<!-- Senior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Senior Year</button>
+						<div class="dropdown-content">
+							<a href="WPICourses.html">WPI Courses</a>
+							<a href="SISP.html">Senior Independent Project</a>
+						</div>
+				</div>
+				
+				<!-- Junior Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Junior Year</button>
+						<div class="dropdown-content">
+							<a href="CS.html">Computer Science</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
+							<a href="Math.html">Math</a>
+							<a href="Physics.html">Physics</a>
+							<a href="STEM_I.html">STEM I</a>
+							<a href="STEM_II.html">STEM II</a>
+							<a href="STW.html">STW</a>
+						</div>
 				</div>
 
-			</nav>
+				<!-- Personal Dropdown -->
+				<div class="dropdown">
+					<button class="dropbtn">Personal</button>
+						<div class="dropdown-content">
+							<a href="Hobbies.html">Hobbies</a>
+							<a href="Extracurriculars.html">Extracurriculars</a>
+							<a href="Service.html">Community Service</a>
+							<a href="Contact.html">Contact Me</a>
+						</div>
+				</div>
 
-			<br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br>
-			
-			<h1>Mathematics</h1>
-
-			<div class="arrow_div">
-				<a href="#section2">
-				<img class = "arrow_down" alt="arrow_icon" src="Images/downarrow.png"></a>
+				<!--Home Button Link-->
+				<a class= "home_a" href="index.html">Home</a>
+				
 			</div>
 
-		</div>
+		</nav>
 
 		<div id="section2">
 
@@ -75,29 +70,29 @@
 			<h2>Advanced Math Modeling</h2>
 
 			<div class = "regular_text">
-
 				<p> 
 					Math Modeling is taught by Mr. Regele. In class, we solve realistic problems working 
 					as teams and present our ideas to the class. We also solve problem sets every week that build upon 
-					what we've learned in the previous terms. </p>
+					what we've learned in the previous terms. 
+				</p>
+			</div>
+				
+			<h3>Hanford Washington Problem</h3>
 
-				<br><br><br><br>
-				<h3>Hanford Washington Problem</h3>
-
+			<div class = "regular_text">
 				<p> 
 					Below is a modeling problem we solved using Mathematica about radioactive contamination. 
 					You can also view the problem <a class= "link" href= "docs/Hanford.pdf">here</a>.
 				</p>
-
 				<br><br>
-
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/Hanford.pdf"></iframe>
 				</div>
+			</div>
 
-				<br><br><br><br>
-				<h3>High School Math Contest in Modeling</h3>
+			<h3>High School Math Contest in Modeling</h3>
 
+			<div class = "regular_text">
 				<p> 
 					We also participated in HiMCM, a 36 hour math modeling competition for high school students. We were given two problems
 					and had to choose between one of them. The problem our team chose was about the energy consumption of electric cars, 
@@ -107,29 +102,20 @@
 					surprised to find we won the Finalist Prize for HiMCM out of 791 teams! If you would like to view our code, follow this 
 					<a class= "link" href= "https://github.com/HiMCMteam9539/Charging">link</a>.
 				</p>
-
 				<br><br>
-
 				<p> The competiton required us to submit a 20-page paper with short summary of our solution to the problem. 
 					Below is our paper. You can also view 
 					it <a class= "link" href= "docs/HiMCMPaper.pdf">here</a>.
 				</p>
-
 				<br><br>
-
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/HiMCMPaper.pdf"></iframe>
 				</div>
-
 				<br><br>
-
 				<p> 
 					Our team also participated in the International Math Modeling Competition (IMMC). You can read more about our experience 
 					<a class= "link" href="Extracurriculars.html">here</a>.
 				</p>
-
-				<br><br><br><br>
-
 			</div>
 
 		</div>	
