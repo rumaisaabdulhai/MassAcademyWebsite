@@ -12,12 +12,12 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
 
 #section1 {
   height: 100vh;
-  background:
+  background: 
   radial-gradient(#ccb0d988, #6595bf94),
-  url("../Images/MeWedding2.jpg") no-repeat;
-  /* -webkit-background-size: cover;
+  url("../Images/MeWedding.jpg") no-repeat;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; */
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -59,8 +59,6 @@ p {color:#354270;font-size: 25px; margin:0px; margin-bottom: 10px; font-family: 
 h3 {color:#354270; font-size: 40px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
 
 h4 {color:#354270; font-size: 30px; text-align:center; font-family: 'Alegreya Sans', sans-serif; padding:0; margin:0; padding-bottom:20px;}
-
-.text {float:center; width:900px; padding-right: 35px; padding-left: 25px;}
 
 .wrap_text { width:960px; margin-left: auto; margin-right: auto; padding-top:25px; padding-bottom:25px;}
 

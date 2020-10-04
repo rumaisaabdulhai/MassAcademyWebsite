@@ -1,9 +1,0 @@
-@charset "UTF-8";
-/* CSS Document */
-
-/* I learned how to make a tinted image from this website:
-https://css-tricks.com/tinted-images-multiple-backgrounds/ */
-
-.right_text_o {float:right; height:325px; width:450px; padding-right: 12.5px; padding-left: 17.5px;}
-
-.left_text_o {float:left; height:325px; width:450px; padding-right: 17.5px; padding-left: 12.5px;}
