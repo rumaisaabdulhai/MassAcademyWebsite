@@ -14,7 +14,7 @@ https://css-tricks.com/tinted-images-multiple-backgrounds/ */
   height: 100vh;
   background: 
   radial-gradient(#ccb0d988, #6595bf94),
-  url("../Images/MeWedding.jpg") no-repeat;
+  url("../Images/MeAndDrone.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,9 +68,26 @@ h4 {color:#354270; font-size: 30px; text-align:center; font-family: 'Alegreya Sa
 
 .center_image {width: 450px; border-radius:10px;}
 
-.left_circle {float:left; height:300px; width: 300px; border-radius: 150px; object-fit: cover; border: 1px solid rgb(18, 43, 126); margin-top:20px;}
+.circle_cont {width: 75%; margin: 0 auto; text-align:center; position: relative;}
 
-.right_circle {float:right; height:300px; width: 300px; border-radius: 150px; object-fit: cover; border: 1px solid rgb(18, 43, 126); margin-top:20px;}
+.row {
+  display: flex;
+  width: 50%;
+  margin: auto; 
+  text-align:center;
+}
+
+.column p {
+  color: white; 
+  margin: 0; 
+  text-shadow: #3542708a 1px 0 10px;
+  font-size: 25px; 
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.column { height:40%; width: 40%; margin: auto; padding:20px; }
+
+.circle {width: 100%;  border-radius: 50%; object-fit: cover;}
 
 .docs { width:80%; height:500px;border: 1px solid rgb(18, 43, 126);}
 
