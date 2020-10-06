@@ -14,6 +14,25 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="scripts/myscript.js"></script>
 
+		<!-- ICON - NOMAD DRONE LOGO -->
+		<link rel="apple-touch-icon" sizes="57x57" href="Images/icons.ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="Images/icons.ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="Images/icons.ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="Images/icons.ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="Images/icons.ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="Images/icons.ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="Images/icons.ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="Images/icons.ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="Images/icons.ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="Images/icons.ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="Images/icons.ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="Images/icons.ico/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="Images/icons.ico/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
 	</head>
 
 	<body>
@@ -60,7 +79,9 @@
 					</div>
 
 					<!--Home Button Link-->
-					<a class= "home_a" href="index.html">Home</a>
+					<div class="dropdown" onClick="window.location.href='index.html';">
+						<button class="dropbtn">Home</button>
+					</div>
 					
 				</div>
 
@@ -82,25 +103,25 @@
 			<div id="section2">
 				
 				<br><br>
-				<h2>About Me</h2>
+				<h2><a style= "text-decoration: none; color:inherit" href="#hello">About Me</a></h2>
 
 				<div class="row">
 					<div class="column">
 						<a onClick="window.location.href='Extracurriculars.html#bwsi';" style= "text-decoration: none">
-							<img class= "circle" src="Images/beaver_circle.jpeg">
+							<img class= "circle" src="Images/beaver_circle.jpeg" alt="beaverworks">
 							<p>Beaver Works Aerial Vehicle Racing</p>
 						</a>
 					</div>
 					<div class="column">
 						<a onClick="window.location.href='STEM_I.html';" style= "text-decoration: none">
-							<img class= "circle" src="Images/Drone1.png">
+							<img class= "circle" src="Images/Drone1.png" alt="autonomous drone application">
 							<p>Autonomous Drone Application</p>
 						</a>
 					</div>
 					<div class="column">
 						<a onClick="window.location.href='Extracurriculars.html#grant';" style= "text-decoration: none">
-							<img class= "circle" src="Images/HelpOutIcon.png">
-							<p>MIT Lemelson InvenTeams Grant</p>
+							<img class= "circle" src="Images/HelpOutIcon.png" alt="HelpOut">
+							<p>HelpOut: Lemelson InvenTeams Grant</p>
 						</a>
 					</div>
 				</div>
@@ -108,34 +129,34 @@
 				<div class="row">
 					<div class="column">
 						<a onClick="window.location.href='Hobbies.html';" style= "text-decoration: none">
-							<img class= "circle" src="Images/trees.JPG">
-							<p>Drawing</p>
+							<img class= "circle" src="Images/trees.JPG" alt="Hobbies">
+							<p>Drawing and Other Hobbies</p>
 						</a>
 					</div>
 					<div class="column">
 						<a onClick="window.location.href='Extracurriculars.html#modeling';" style= "text-decoration: none">
-							<img class= "circle" src="Images/IMMC_Sim.png">
+							<img class= "circle" src="Images/IMMC_Sim.png" alt="math modeling competitions">
 							<p>International Math Modeling</p>
 						</a>
 					</div>
 					<div class="column">
 						<a onClick="window.location.href='Extracurriculars.html#grant';" style= "text-decoration: none">
-							<img class= "circle" src="Images/hhrd_wash.png">
+							<img class= "circle" src="Images/hhrd_wash.png" alt="helping hand">
 							<p>Water For Life with Helping Hand</p>
 						</a>
 					</div>
 				</div>
 
 				<br><br>
-				<h3>Hello!</h3>
+				<h3 id="hello">Hello!</h3>
 
 				<div class="wrap">
 					<img class= "left_image" src= "Images/sisters2.JPG" alt= "Me with My Sisters">
 					<p> 
-						Hello! I'm Rumaisa Abdulhai, a senior at Mass Academy (MAMS) from Shrewsbury, Massachusetts. I am really passionate 
-						about computer science, robotics, and physics. In my free time, I love to draw and spend time with my family. 
-						I am grateful to have lived in 3 different countries, and have attended 6 different schools before MAMS. 
-						The picture on the left is me (left) with my two sisters.
+						I'm Rumaisa Abdulhai (left), a senior at the Massachusetts Academy of Math & Science (MAMS) in Worcester, Massachusetts. 
+						The picture on the left is me with my two sisters during my sister's wedding this past summer. I am passionate about 
+						physics, computer science, and robotics. In my free time, I love to draw and spend time with my family. I am grateful 
+						to have lived in 4 different countries- Qatar, UAE, Saudi Arabia, and the US, and attended 6 different schools before MAMS.
 					</p>
 				</div>
 
@@ -145,24 +166,24 @@
 				<div class="wrap">
 					<img class= "right_image" src= "Images/beaverworks.JPG"  alt= "Me with My Team For the BWSI Summer Program">
 						<p>
-							In 2019, I attended a 4-week summer program called Beaver Works at MIT. I was part of the autonomous drone racing course.
-							We had to program a research drone to autonomously navigate an illuminated trajectory while avoiding AR tagged obstacles.
-							There were students from all over the United States. The picture to the right is our team, and I am holding the drone we 
-							competed with. I can't believe we won 1st place at the end of our program! Click <a class= "link" href="Extracurriculars.html">here</a>
-							 to read more about my experience.
+							In the summer of 2019, I attended a 4-week intensive program called Beaver Works at MIT, where I learned how to 
+							program a research drone using Python and the Robot Operating System (ROS) to autonomously navigate an illuminated 
+							trajectory while avoiding AR tagged obstacles. The picture to the right is my team, and I am holding the drone we 
+							competed with. We were excited to win 1st place at the end of our program. You can read more about my experience 
+							<a class= "link" href="Extracurriculars.html">here</a>.
 						</p>
 				</div>
 
 				<br><br>
-				<h3>Math Modeling</h3>
+				<h3>International Math Modeling</h3>
 
 				<div class="wrap">
 					<img class= "left_image" src= "Images/IMMC_Gang.jpeg"  alt= "A Zoom Picture of Me with My Team">
 						<p> 
-							In April of 2020, I competed in the 5-day International Mathematical Contest in Modeling (IMMC) with 3 MAMS students.
+							In April of 2020, I competed in the 5-day International Mathematical Contest in Modeling (IMMC) with 3 of my classmates.
 							We developed simulations in Python and Java to maximize revenue in flash sales (like Black Friday) while minimizing damage 
-							to products. We were pleasantly surprised that we won the Finalist Prise for IMMC in the US!
-							Click <a class= "link" href="Extracurriculars.html">here</a> to read more about our experience.
+							to products. We were pleasantly surprised that we won the Finalist Prise for IMMC in the US! You can read more about my 
+							experience <a class= "link" href="Extracurriculars.html">here</a>.
 						</p>
 				</div>
 
@@ -173,7 +194,7 @@
 				<div class="wrap">
 					<img class= "right_image" src= "Images/babybird.jpg"  alt= "My Sister Holding Our Baby Bird">
 						<p> 
-							I have twelve beautiful lovebirds. We started with only two from a nice bird owner, 
+							I take care of twelve beautiful lovebirds. We started with only two from a nice bird owner, 
 							and since then they've grown to a little flock! My birds love to eat apple
 							and millet. They also love to chirp all day long, especially when they're sleepy. 
 							The picture on the right is my sister holding one of the birds when he was a baby.
@@ -184,18 +205,36 @@
 				<h3>Umrah Trip</h3>
 
 				<div class="wrap">
-					<img class= "left_image" src= "Images/Nabawi.jpeg"  alt= "Nabawi Mosque">
+					<img class= "left_image" src= "Images/umrah.png"  alt= "Me with Sisters in front of the Kaaba">
 						<p> 
 							In 2018, I went for Umrah (a pilgrimage) with my family to the cities of Makkah and Medinah in Saudi Arabia. 
-							It was my first time visiting after 10 years. I really enjoyed the experience, and met so many 
-							people of different cultures from around the world. The mosques were beautiful; I miss it so much. To the left is 
-							a picture of the interior of Masjid Al Nabawi, one of the largest mosques in the world and the second holiest site 
-							in Islam.
+							It was my first time visiting after 10 years. I really enjoyed the experience, and met so many people of 
+							different cultures from around the world. The mosques were beautiful and I miss it so much. To the left is 
+							me with my sisters in front of the Kaaba, one of the holiest sites in Islam.
 						</p>
 				</div>
 
+				<br><br>
+
+				<footer>
+					<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
+					<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
+					<a href="" style= "text-decoration: none">
+						<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
+					</a>
+					<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
+						<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
+					</a>
+					<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
+						<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
+					</a>
+					<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
+						<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
+					</a>
+				</footer>
+
 			</div>
 
-	</body>	
+	</body>
 	
 </html>

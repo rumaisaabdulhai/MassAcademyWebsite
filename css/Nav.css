@@ -4,14 +4,6 @@
 /* The Nav bar was made by the help of W3Schools.
 Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 
-/* .icon {background: url('../Images/GitHub-Mark-Light-32px.png') no-repeat;
-    height:32px;
-    width:32px;
-    margin-top:10px;
-    display: inline-block;
-    margin-left:30px;
-} */
-
 .navbar-default {
 
     padding-right:15px;
@@ -54,18 +46,8 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
     margin: 0;
 }
 
-/*  */
 .dropbtn { 
     border-radius:5px;
-    text-shadow: #354270 1px 0 10px;
-}
-
-.home_a {
-    font-size: 20px;
-    border-radius:5px;
-    font-family: 'Alegreya Sans', sans-serif;
-    width: 90px;
-    text-align: center;
     text-shadow: #354270 1px 0 10px;
 }
   
@@ -99,7 +81,6 @@ Link: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
   
 .dropdown-content a:hover {
     background-color: #dcdcdc;
-
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;

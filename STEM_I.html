@@ -11,8 +11,24 @@
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/myscript.js"></script>
+		<!-- ICON - NOMAD DRONE LOGO -->
+		<link rel="apple-touch-icon" sizes="57x57" href="Images/icons.ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="Images/icons.ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="Images/icons.ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="Images/icons.ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="Images/icons.ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="Images/icons.ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="Images/icons.ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="Images/icons.ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="Images/icons.ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="Images/icons.ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="Images/icons.ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="Images/icons.ico/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="Images/icons.ico/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 	
 	</head>
 
@@ -58,7 +74,9 @@
 				</div>
 
 				<!--Home Button Link-->
-				<a class= "home_a" href="index.html">Home</a>
+				<div class="dropdown" onClick="window.location.href='index.html';">
+					<button class="dropbtn">Home</button>
+				</div>
 				
 			</div>
 
@@ -68,6 +86,13 @@
 
 			<br><br>
 			<h2>Advanced STEM I</h2>
+
+			<div class= "shortcut">
+				<h3><a href="#poster">Poster</a></h3>
+				<h3><a href="#video">Video</a></h3>
+				<h3><a href="#thesis">Thesis</a></h3>
+				<h3><a href="#code">Code</a></h3>
+			</div>
 
 			<h3>Simulation of an Indoor Autonomous Drone for Assisting Police in Mass Shootings</h3>
 
@@ -81,7 +106,7 @@
 				</p>
 			</div>
 
-			<h3>Project Poster</h3>
+			<h3 id="poster">Project Poster</h3>
 
 			<div class = "regular_text">
 				<p>
@@ -96,7 +121,7 @@
 				</div>
 			</div>
 
-			<h3>Project Video</h3>
+			<h3 id="video">Project Video</h3>
 
 			<div class = "regular_text">
 				<p>
@@ -109,7 +134,7 @@
 				</div>
 			</div>
 
-			<h3>STEM Thesis</h3>
+			<h3 id="thesis">STEM Thesis</h3>
 
 			<div class= "regular_text">
 				<p>
@@ -123,7 +148,7 @@
 				</div>
 			</div>
 			
-			<h3>The Code</h3>
+			<h3 id="code">The Code</h3>
 
 			<div class= "regular_text">
 				<p>Please visit my Github repository <a class= "link" href= "https://github.com/rumaisaabdulhai/quad_sim">quad_sim</a> for the 
@@ -145,6 +170,23 @@
 					so my drone could navigate from one location to another. I coded the RRT Algorithm in a simple 2D Python Simulator called Pygame. You can find my code <a class= "link" href= "https://github.com/rumaisaabdulhai/PathPlanning/blob/master/rrt_modified.py">here</a>.
 				</p>
 			</div>
+
+			<footer>
+				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
+				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
+				<a href="" style= "text-decoration: none">
+					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
+				</a>
+				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
+					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
+				</a>
+				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
+					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
+				</a>
+				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
+					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
+				</a>
+			</footer>
 				
 		</div>
 

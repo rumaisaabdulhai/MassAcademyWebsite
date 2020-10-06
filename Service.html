@@ -11,8 +11,24 @@
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/myscript.js"></script>
+		<!-- ICON - NOMAD DRONE LOGO -->
+		<link rel="apple-touch-icon" sizes="57x57" href="Images/icons.ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="Images/icons.ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="Images/icons.ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="Images/icons.ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="Images/icons.ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="Images/icons.ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="Images/icons.ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="Images/icons.ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="Images/icons.ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="Images/icons.ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="Images/icons.ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="Images/icons.ico/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="Images/icons.ico/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 	
 	</head>
 
@@ -58,7 +74,9 @@
 				</div>
 
 				<!--Home Button Link-->
-				<a class= "home_a" href="index.html">Home</a>
+				<div class="dropdown" onClick="window.location.href='index.html';">
+					<button class="dropbtn">Home</button>
+				</div>
 				
 			</div>
 
@@ -69,7 +87,12 @@
 			<br><br>
 			<h2>Community Service</h2>
 
-			<h3>Lego Summer Robotics Camp</h3>
+			<div class= "shortcut">
+				<h3><a href="#lego">Lego Summer Robotics</h3></a></h3>
+				<h3><a href="#hhrd">Helping Hand</a></h3>
+			</div>
+
+			<h3 id="lego">Lego Summer Robotics Camp</h3>
 
             <div class="regular_text">
 				<img class= "left_image" src= "Images/WIC.png" alt="My students">
@@ -84,7 +107,7 @@
                 </p>
 			</div>
 
-			<h3>Helping Hand</h3>
+			<h3 id="hhrd">Helping Hand</h3>
 			
 			<div class="regular_text"> 
 				<img class= "right_image" src= "Images/HHRD.png" alt="My students">
@@ -98,6 +121,23 @@
 					shelter, and water and want to involve myself more directly by giving back in whatever way I can.
                 </p>
 			</div>
+
+			<footer>
+				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
+				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
+				<a href="" style= "text-decoration: none">
+					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
+				</a>
+				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
+					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
+				</a>
+				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
+					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
+				</a>
+				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
+					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
+				</a>
+			</footer>
 
 		</div>
 
