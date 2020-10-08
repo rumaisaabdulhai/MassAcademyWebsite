@@ -11,6 +11,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts/script_other.js"></script>
+
 		<!-- ICON - NOMAD DRONE LOGO -->
 		<link rel="apple-touch-icon" sizes="57x57" href="Images/icons.ico/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="Images/icons.ico/apple-icon-60x60.png">
@@ -52,12 +55,12 @@
 					<button class="dropbtn">Junior Year</button>
 						<div class="dropdown-content">
 							<a href="CS.html">Computer Science</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="Math.html">Math</a>
 							<a href="Physics.html">Physics</a>
+							<a href="Math.html">Math</a>
 							<a href="STEM_I.html">STEM I</a>
 							<a href="STEM_II.html">STEM II</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
 							<a href="STW.html">STW</a>
 						</div>
 				</div>
@@ -87,28 +90,35 @@
 			<br><br>
 			<h2>Advanced Computer Science</h2>
 
+			<br>
+
 			<div class= "shortcut">
 				<h3><a href="#afg">Apps For Good Project</a></h3>
 				<h3><a href="#ic">Image Classification Project</a></h3>
 			</div>
 
+			<br>
+
 			<div class = "regular_text">
 				<p> 
 					Computer Science is taught by Mrs. Taricco. In Mass Academy, few students who have prior computer science 
 					experience embark on an independent project. For my project, I chose to explore the world of machine learning.  
-					I performed Image Classification where I evaluated two Machine Learning techniques, namely
-					the K-Nearest Neighbor (KNN) Classifier and Convolutional Neural Networks (CNNs). I worked on it throughout B term
-					and C Term. In D term, I embarked on an Apps For Good Project with 2 other MAMS students to help high school 
+					I performed Image Classification where I evaluated two Machine Learning techniques, namely the K-Nearest Neighbor 
+					(KNN) Classifier and Convolutional Neural Networks (CNNs). I worked on the project throughout B term
+					and C Term. In D term, I embarked on an Apps For Good Project with 2 classmates to help high school 
 					students find community service opportunities.
 				</p>
 
 			</div>
 
-			<h3 id="afg">Apps For Good Project</h3>
+			<br id="afg"><br><br><br>
+
+			<h3>Apps For Good Project</h3>
 
 			<div class= "regular_text">
 				<p> During D Term, my team and I developed an Android Studio Application in Java called HelpOut to help high school students search 
-					for volunteer opportunities that interest them. You can find more information on our project below.</p>
+					for volunteer opportunities that interest them and for organizations to market their opportunities. You can find more information 
+					on our project below.</p>
 			</div>
 
 			<h4>The Problem</h4>
@@ -117,31 +127,17 @@
 				<p>
 					Many students with mandatory community service requirements or students looking to give back to their 
 					community struggle to find volunteer opportunities that interest them. There are 16% of potential volunteers who
-					do not volunteer due to a lack of nearby volunteer opportunities (Kotecha). Another common reason why people do not 
-					volunteer is a lack of interesting volunteer opportunities (Youtopoulus). Therefore, there is a need to 
+					do not volunteer due to a lack of nearby volunteer opportunities (Kotecha). Therefore, there is a need to 
 					provide a platform where potential volunteers can be fully aware of interesting volunteer opportunities nearby and 
 					organizations can market their opportunities. Moreover, many nonprofits and other organizations often struggle to pick up 
-					interested volunteers. We believe that this arises due to the lack of a common platform between volunteers and organizations. 
-					Indeed, the problem is the accessibility of community service opportunities for both people looking to volunteer 
-					and organizations that could use potential volunteers.
-				</p>
-			</div>
-
-			<h4>Target Audience</h4>
-
-			<div class= "regular_text">
-				<p>
-					HelpOut is targeted towards students who want to volunteer in their communities, but cannot find the right opportunity 
-					for them. The app is also aimed at organizations looking for volunteers for events, fundraisers, and as 
-					long-term helpers. HelpOut would allow not only for students to find a place to enjoy volunteering, 
-					but also allow organizations to gain volunteers that are eager to work in a certain field.
+					interested volunteers. We believe that this arises due to the lack of a common platform between volunteers and organizations.
 				</p>
 			</div>
 
 			<h4>Features of Our App</h4>
 
 			<div class = "regular_text">
-				<p> 
+				<p>
 					The first main feature of the app is that students may sort 
 					opportunities by location and by name. The second is that they can save opportunities to view later by marking 
 					it as favorite. First, I used Web Scraping to obtain the title, description, location, contact 
@@ -153,8 +149,7 @@
 					<br><br>
 					The video below shows a demo of the application. When the user opens the app for the first time, they
 					are brought to a welcome screen that walks them through the app's features. They are then prompted to create 
-					an account or sign in. Any opportunities that they favorite or unfavorite will be updated and saved on the cloud and 
-					accessible from any device as long as they can sign in.
+					an account or sign in. Any opportunities that they favorite or unfavorite will be updated and saved in the cloud.
 				</p>
 				<div style = "text-align:center">
 					<iframe width="395" height="296" src="https://www.youtube.com/embed/nzuyepVjZHA" allowfullscreen></iframe>
@@ -162,14 +157,16 @@
 			</div>
 
 			<div class= "regular_text">
-				<p> Below are the slides we presented for the virtual Apps For Good Fair. </p>
+				<p> Below are the <a class= "link" href= "docs/AFG_Pres.pdf">slides</a> 
+					we presented for the virtual Apps For Good Fair. </p>
 				<br>
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/AFG_Pres.pdf"></iframe>
 				</div>
 			</div>
 
-			<h3 id="ic">Image Classification Project</h3>
+			<br id="ic"><br><br><br>
+			<h3>Image Classification Project</h3>
 			
 			<div class = "regular_text">
 				<p>
@@ -184,7 +181,7 @@
 				<br><br>
 
 				<p> 
-					Below is a presentation I made on the progress of my image classification project. I plan to further fine tune my CNN models by 
+					Below is a <a class= "link" href= "docs/CS_Presentation_Abdulhai.pdf">presentation</a> I made on the progress of my image classification project. I plan to further fine tune my CNN models by 
 					saving the best weights throughout training to minimize the classification error. You can view my code 
 					<a class= "link" href= "https://github.com/rumaisaabdulhai/image_classification">here</a>.
 				</p>

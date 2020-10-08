@@ -11,6 +11,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts/script_other.js"></script>
+
 		<!-- ICON - NOMAD DRONE LOGO -->
 		<link rel="apple-touch-icon" sizes="57x57" href="Images/icons.ico/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="Images/icons.ico/apple-icon-60x60.png">
@@ -52,12 +55,12 @@
 					<button class="dropbtn">Junior Year</button>
 						<div class="dropdown-content">
 							<a href="CS.html">Computer Science</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="Math.html">Math</a>
 							<a href="Physics.html">Physics</a>
+							<a href="Math.html">Math</a>
 							<a href="STEM_I.html">STEM I</a>
 							<a href="STEM_II.html">STEM II</a>
+							<a href="Hum.html">Humanities</a>
+							<a href="Lang.html">Language</a>
 							<a href="STW.html">STW</a>
 						</div>
 				</div>
@@ -88,23 +91,31 @@
 			<br><br>
 			<h2>Extracurriculars</h2>
 
+			<br>
+
 			<div class= "shortcut">
 				<h3><a href="#grant">Lemelson Grant</a></h3>
-				<h3><a href="#modeling">International Math Modeling</a></h3>
 				<h3><a href="#bwsi">Beaver Works</a></h3>
+				<h3><a href="#modeling">International Math Modeling</a></h3>
 				<h3><a href="#robotics">First Robotics</a></h3>
 			</div>
 
+			<br id="grant"><br><br><br>
+
 			<!-- LEMELSON CONTENT -->
-			<h3 id="grant">MIT Lemelson InvenTeams Grant</h3>
+			<h3>MIT Lemelson InvenTeams Grant</h3>
 
 			<div class="regular_text">
-				<p> 
-					This past summer (2020), I embarked on an project with 3 other MAMS students to help high school students search, find, and apply 
-					to volunteer opportunities, summer programs, and internships that interest them. We developed a lot of the Android mobile application 
-					features over the summer, wrote a grant proposal, and reached out to high schools and organizations in MA for support. Our team 
-					was selected to be a finalist for the grant. We hope to continue the project during senior year. Click <a class= "link" href= "docs/backgroundResearch.pdf">here</a> to 
-					find the background research summary we submitted for our application HelpOut to the Lemelson InvenTeams committee.
+				<p>
+					This summer, I led a project with 3 MAMS students to help high school students search, find, and apply 
+					to volunteer opportunities, summer programs, and internships that interest them. Our proposed solution 
+					is HelpOut: a mobile application on iOS and Android platforms that would serve as a single destination 
+					for high schoolers to effectively search, filter, and directly apply for programs they are passionate 
+					about. We developed many the Android mobile application features over the summer, conducted a design 
+					study to assess the need for such a platform, wrote a grant proposal, and reached out to high schools and 
+					organizations in Massachusetts for support. Our team was selected to be a finalist for the grant. We hope 
+					to continue the project during senior year. The <a class= "link" href= "docs/HelpOut.pdf">presentation</a> 
+					below gives an overview of the project and also features some demos.
 				</p>
 
 				<br><br>
@@ -112,80 +123,126 @@
 				<div style = "text-align:center">
 					<iframe class = "docs" src="docs/HelpOut.pdf"></iframe>
 				</div>
-			</div>
 
-			<!-- MATH MODELING CONTENT -->
-			<h3 id="modeling">International Math Modeling</h3>
+			</div>
 
 			<div class="regular_text">
-					<p> 
-						At MAMS, I developed a passion for Math Modeling. In November, I formed a team with 3 Mass Academy students 
-						to compete in the 2019 High School Math Contest in Modeling (HiMCM), where a total of 791 teams participated. 
-						We were really happy with our performance and had a lot of fun while doing it. We were even more excited 
-						when our team US-9539 won the Finalist Prize for HiMCM. We wanted to see what other competitions were out there, 
-						and found we were qualified to participate in the 2020 International Mathematical Modeling Competition (IMMC).
-						See the 2020 problem <a class= "link" href= "docs/IMMC_Problem.pdf">here</a>.
-					</p>
-			</div>
 
-			<div class= "regular_text">
-				<p> 
-					Below is the simulation I developed in Python for IMMC. See the code 
-					<a class= "link" href= "https://github.com/rumaisaabdulhai/IMMC_2020">here</a>. We modeled population 
-					density, product density, obstruction of view from cashiers, and total customers to develop a scoring 
-					system to predict the total number of damaged products in a flash sale. Although we were unable to work 
-					together in person, we are grateful we had the opportunity to collaborate virtually. See our paper 
-					<a class= "link" href= "docs/IMMC_Paper.pdf">here</a>.
+				<p>
+					Below is the background research summary <a class= "link" href= "docs/backgroundResearch.pdf">document</a> 
+					we submitted for HelpOut to the Lemelson InvenTeams committee.
 				</p>
+
+				<br><br>
+
 				<div style = "text-align:center">
-					<iframe width="395" height="296" src="https://www.youtube.com/embed/BCxoNBQ9oNk" allowfullscreen></iframe>
+					<iframe class = "docs" src="docs/backgroundResearch.pdf"></iframe>
 				</div>
+
 			</div>
 
-			<div class="wrap">
-				<img class= "right_image" src= "Images/Mathworks.jpg" alt="Mathworks Team">
-					<p> 
-						I also competed in the 14-hour MathWorks Math Modeling Challenge with 4 other MAMS students in February. We created a model to determine 
-						the number and locations of charging stations along major U.S. trucking routes for an all-electric trucking industry, and to 
-						prioritize which routes should be developed with electric charging infrastructure first. To see our paper we submitted, click <a class= "link" href= "docs/MathWorks_Paper.pdf">here</a>.
-					</p>
-			</div>
+			<br id="bwsi"><br><br><br>
 
 			<!-- BWSI CONTENT -->
-			<h3 id="bwsi">MIT Beaver Works</h3>
+			<h3>Beaver Works Aerial Vehicle Racing</h3>
 
 			<div class="wrap">
 				<img class= "right_image" src= "Images/MeAndDrone.jpg" alt="Me with Drone">
 				<p> 
-					As a sophomore, I attended the 2019 BWSI Summer Program for 4 weeks. I learned how to pilot and program a quadcopter. 
-					I also gained skills in the Robot Operating System (ROS), linear algebra, openCV, 
-					and git version control. Every day we would attend seminars from industry leaders including 
-					Lincoln Labs and BAE Systems. My experience at BWSI inspired me to pursue my <a class= "link" href="STEM_I.html">STEM I</a> Project.
+					As a sophomore, I attended the 2019 Beaver Works summer program at MIT for 4 weeks. I learned how to pilot and program a quadcopter using Python, 
+					the Robot Operating System (ROS), and openCV. Every day we would attend seminars from industry leaders including Lincoln Labs 
+					and BAE Systems. My experience at Beaver Works inspired me to pursue my <a class= "link" href="STEM_I.html">STEM I</a> Project.
 				</p>
 			</div>
 
 			<div class="wrap">
 				<img class= "left_image" src= "Images/Beaver.jpg" alt="Long Exposure Beaver">
 				<p> 
-					During the first week, we practiced safety protocol and flying the Intel Research Quadcopter. For the second week, 
-					we competed in small challenges such as programming the quadcopter to fly in certain configuration and avoid AR-tagged obstacles. 
-					To the left is the Beaver mascot we were able to trace with a light mounted on the quadcopter and a long exposure camera.
+					During the first week, we practiced safety protocol and flying the Intel quadcopter. For the second week, 
+					we competed in small challenges such as programming the quadcopter to fly in certain configurations and 
+					avoid AR-tagged obstacles. We were even able to trace the shape of Beaver mascot with a light mounted on the 
+					quadcopter and a long exposure camera (left).
 				</p>	
 			</div>
 			
 			<div class="regular_text">
-				<p> For the third week, we completed labs on using openCV for computer vision so we could get our drone to follow 
+				<p> For the third week, we learned how to use openCV for computer vision so we could get our drone to follow 
 					an LED-illuminated path. Finally, during the fourth week, we prepared for the final racing competition and programmed
 					our quadcopter to follow an LED-illuminated path while avoiding AR-tagged obstacles. The left video is a snippet of 
-					our drone navigating the obstacle course autonomously. To see the code explained, view this <a class= "link" href="docs/Nomad_Presentation.pdf">presentation</a>.
+					our drone navigating the obstacle course autonomously. We also made a final 
+					<a class= "link" href="docs/Nomad_Presentation.pdf">presentation</a> that gives an overview of our code.
 				</p>
+				<br><br>
 				<div style = "text-align:center">
 					<iframe width="395" height="296" src="https://www.youtube.com/embed/WMI4XjiXz3A" allowfullscreen></iframe>
 				</div>
 			</div>
 
+			<br id="modeling"><br><br><br>
+
+			<!-- MATH MODELING CONTENT -->
+			<h3>International Math Modeling</h3>
+
+			<div class="regular_text">
+					<p> 
+						At MAMS, I became passionate about Math Modeling. I developed a keen interest for solving these modeling problems 
+						as they tackled issues in the real world– from climate change and energy consumption to marketing and sales. In 
+						November 2019, I formed a team with 3 MAMS students to compete in the 2019 High School Math Contest in Modeling 
+						(HiMCM), where a total of 791 teams competed. You can read more about my HiMCM experience here. We were proud of 
+						our work and had a lot of fun while doing it. We were thrilled when our team US-9539 won the Finalist Prize. 
+						We wanted to see what other competitions were out there, and found we were qualified to compete in the 2020 
+						International Mathematical Modeling Competition (IMMC).
+						See the 2020 problem <a class= "link" href= "docs/IMMC_Problem.pdf">here</a>.
+					</p>
+			</div>
+
+			<div class= "regular_text">
+				<p> 
+					Below is a demo of the simulation I developed in Python that models the products damaged for various store 
+					layouts. You can find the code <a class= "link" href= "https://github.com/rumaisaabdulhai/IMMC_2020">here</a>. 
+					We modeled population density, product density, obstruction of view from cashiers, and number of customers to 
+					develop a scoring system to predict the total number of damaged products in a flash sale. Although we were 
+					unable to work together in person, we are grateful we had the opportunity to collaborate virtually.
+				</p>
+				<br><br>
+				<div style = "text-align:center">
+					<iframe width="395" height="296" src="https://www.youtube.com/embed/BCxoNBQ9oNk" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class= "regular_text">
+				<p> 
+					Below is the <a class= "link" href= "docs/IMMC_Paper.pdf">paper</a> we submitted for the IMMC competition.
+				</p>
+				<br><br>
+				<div style = "text-align:center">
+					<iframe class = "docs" src="docs/IMMC_Paper.pdf"></iframe>
+				</div>
+			</div>
+
+			<div class="wrap">
+				<img class= "right_image" src= "Images/Mathworks.jpg" alt="Mathworks Team">
+					<p> 
+						I also competed in the 14-hour MathWorks Math Modeling Challenge with 4 MAMS students this February. We created a model to determine 
+						the number and locations of charging stations along major U.S. trucking routes for an all-electric trucking industry, and had to 
+						prioritize which routes should be developed with electric charging infrastructure first.
+					</p>
+			</div>
+
+			<div class= "regular_text">
+				<p> 
+					Below is the <a class= "link" href= "docs/MathWorks_Paper.pdf">paper</a> we submitted for the Mathworks competition.
+				</p>
+				<br><br>
+				<div style = "text-align:center">
+					<iframe class = "docs" src="docs/MathWorks_Paper.pdf"></iframe>
+				</div>
+			</div>
+
+			<br id="robotics"><br><br><br>
+
 			<!-- ROBOTICS CONTENT -->
-			<h3 id="robotics">First Robotics</h3>
+			<h3>First Robotics</h3>
 
 			<div class="wrap">
 				<img class= "left_image" src= "Images/FRCDetroit.jpg" alt="FRC team">
