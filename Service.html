@@ -10,63 +10,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/script_other.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type= "text/javascript" src="scripts/load_nav.js"></script>
+		<script type= "text/javascript" src="scripts/load_footer.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="scripts/anchor_shortcut.js"></script>
 	
 	</head>
 
 	<body>
 
-		<nav class= "navbar navbar-default navbar-fixed-top">
-
-			<div class= "cont">
-
-				<!-- Senior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Senior Year</button>
-						<div class="dropdown-content">
-							<a href="WPICourses.html">WPI Courses</a>
-							<a href="SISP.html">Senior Independent Project</a>
-						</div>
-				</div>
-				
-				<!-- Junior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Junior Year</button>
-						<div class="dropdown-content">
-							<a href="CS.html">Computer Science</a>
-							<a href="Physics.html">Physics</a>
-							<a href="Math.html">Math</a>
-							<a href="STEM_I.html">STEM I</a>
-							<a href="STEM_II.html">STEM II</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="STW.html">STW</a>
-						</div>
-				</div>
-
-				<!-- Personal Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Personal</button>
-						<div class="dropdown-content">
-							<a href="Hobbies.html">Hobbies</a>
-							<a href="Extracurriculars.html">Extracurriculars</a>
-							<a href="Service.html">Community Service</a>
-							<a href="Contact.html">Contact Me</a>
-						</div>
-				</div>
-
-				<!--Home Button Link-->
-				<div class="dropdown" onClick="window.location.href='index.html';">
-					<button class="dropbtn">Home</button>
-				</div>
-				
-			</div>
-
-		</nav>
+		<div id="header"></div>
 
 		<div id="section2">
 
@@ -76,11 +31,45 @@
 			<br>
 
 			<div class= "shortcut">
-				<h3><a href="#lego">Lego Summer Robotics</h3></a></h3>
 				<h3><a href="#hhrd">Helping Hand</a></h3>
+				<h3><a href="#imrc">Indian Muslim Relief & Charities</a></h3>
+				<h3><a href="#lego">Lego Summer Robotics</h3></a></h3>
 			</div>
 
 			<br>
+
+			<h3 id="hhrd">Helping Hand</h3>
+			
+			<div class="regular_text"> 
+				<img class= "right_image" src= "Images/HHRD.png" alt="My students">
+				<p>
+					Since 2019, I have volunteered for 
+					<a class= "link" href= "https://new.hhrd.org/">Helping Hand for Relief & Development</a> (HHRD). 
+					HHRD is a humanitarian relief organization supports underpriveleged and refugee families in over 85 countries 
+					including Syria, Jordan, Lebanon, Somalia, Sudan, and Pakistan. During winter, I packed donated clothes, food, 
+					and toys in HHRD warehouses that are shipped to Jordan and Pakistan. In April 2020, I organized an online fundraiser 
+					and spoke at the event, raising $38,000 to build 20 water and sanitation facilities for Syrian refugees in Jordan. 
+					During the months of Ramadan and Qurbani, I called donors, requesting them to donate for food packages, sponsor 
+					orphan children, or provide for their educational assistance. This summer, I began an online mentorship initiative 
+					to teach Java and Python to refugee students in Jordan and Pakistan. As an Indian American, volunteering helps me 
+					give back to those in harsh situations similar to my immigrant parents growing up in India.
+                </p>
+			</div>
+
+			<h3 id="imrc">Indian Muslim Relief & Charities</h3>
+			
+			<div class="regular_text"> 
+				<img class= "left_image" src= "Images/kashmir_imrc.jpg" alt="My students">
+				<p>
+					Volunteering my time to improve the condition of underprivileged women in my community gives me a sense of 
+					commitment, humility, and satisfaction. I have been a volunteer for Indian Muslim Relief and Charities since 
+					2015, an organization that helps women and children in India afflicted by poverty, natural disasters, and 
+					communal riots. My duties include making phone calls to donors, distributing flyers, and cleaning up after 
+					fundraising events. I have helped organize annual fundraisers in New Jersey since 2017, raising money to 
+					build 50 tube-wells in Kashmir that provide clean water to about 25,000 people and support education to 
+					150 orphan children in Hyderabad.
+                </p>
+			</div>
 
 			<h3 id="lego">Lego Summer Robotics Camp</h3>
 
@@ -97,37 +86,7 @@
                 </p>
 			</div>
 
-			<h3 id="hhrd">Helping Hand</h3>
-			
-			<div class="regular_text"> 
-				<img class= "right_image" src= "Images/HHRD.png" alt="My students">
-				<p>
-					Since 2018, I have volunteered with <a class= "link" href= "https://new.hhrd.org/">Helping Hand</a> (HHRD). HHRD is a 
-					humanitarian relief organization that works to support refugee families in countries such as Jordan, Lebanon, Somalia, and Pakistan. 
-					My tasks included reaching out to past donors to donate for a Water and Sanitation Hygiene (WASH) fundraiser to support the building 
-					of water and sanitation facilities for Syrian families in Jordan and Lebanon. I was one of the youth speakers in the fundraiser. 
-					We were able to raise $40,000 dollars in total. Working with Helping Hand has been a really meaningful experience 
-					for me. I know the excellent work that they are doing to provide disaster stricken communities with essentials such as food, 
-					shelter, and water and want to involve myself more directly by giving back in whatever way I can.
-                </p>
-			</div>
-
-			<footer>
-				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
-				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
-				<a href="" style= "text-decoration: none">
-					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
-				</a>
-				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
-					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
-				</a>
-				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
-					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
-				</a>
-				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
-					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
-				</a>
-			</footer>
+			<footer id="footer"></footer>
 
 		</div>
 

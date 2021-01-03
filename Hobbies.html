@@ -10,63 +10,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/script_other.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type= "text/javascript" src="scripts/load_nav.js"></script>
+		<script type= "text/javascript" src="scripts/load_footer.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="scripts/anchor_shortcut.js"></script>
 	
 	</head>
 
 	<body>
 
-		<nav class= "navbar navbar-default navbar-fixed-top">
-
-			<div class= "cont">
-
-				<!-- Senior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Senior Year</button>
-						<div class="dropdown-content">
-							<a href="WPICourses.html">WPI Courses</a>
-							<a href="SISP.html">Senior Independent Project</a>
-						</div>
-				</div>
-				
-				<!-- Junior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Junior Year</button>
-						<div class="dropdown-content">
-							<a href="CS.html">Computer Science</a>
-							<a href="Physics.html">Physics</a>
-							<a href="Math.html">Math</a>
-							<a href="STEM_I.html">STEM I</a>
-							<a href="STEM_II.html">STEM II</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="STW.html">STW</a>
-						</div>
-				</div>
-
-				<!-- Personal Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Personal</button>
-						<div class="dropdown-content">
-							<a href="Hobbies.html">Hobbies</a>
-							<a href="Extracurriculars.html">Extracurriculars</a>
-							<a href="Service.html">Community Service</a>
-							<a href="Contact.html">Contact Me</a>
-						</div>
-				</div>
-
-				<!--Home Button Link-->
-				<div class="dropdown" onClick="window.location.href='index.html';">
-					<button class="dropbtn">Home</button>
-				</div>
-				
-			</div>
-
-		</nav>
+		<div id="header"></div>
 
 		<div id="section2">
 
@@ -87,11 +42,11 @@
 			<h3 id="drawing">Drawing</h3>
 
 			<div class="wrap">
-				<img class= "left_image" src= "Images/AnimMe.png" alt="drawing">
+				<img class= "left_image" src= "Images/MeetTheArtist.png" alt="drawing">
 				<p> Drawing has always been near and dear to my heart. It has become a way for me to de-stress 
 					when I have a lot of work. I like to draw people, animals, and flowers. Most of the time, I stick 
 					to an animated style of drawing, but I do enjoy a bit of realism. Someday, I hope to create a manga of my own. 
-					To the left is a drawing of me and my lovebird Petite. Click 
+					To the left is a drawing of me. Click 
 					<a class= "link" href="https://youtu.be/udfM3Xeph-I">here</a> to see a traditional speedpaint of me 
 					drawing my lovebirds.
 				</p>
@@ -134,22 +89,7 @@
 				</div>
 			</div>
 
-			<footer>
-				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
-				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
-				<a href="" style= "text-decoration: none">
-					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
-				</a>
-				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
-					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
-				</a>
-				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
-					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
-				</a>
-				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
-					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
-				</a>
-			</footer>
+			<footer id="footer"></footer>
 
 		</div>
 

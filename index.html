@@ -10,71 +10,26 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/script_home.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type= "text/javascript" src="scripts/load_nav.js"></script>
+		<script type= "text/javascript" src="scripts/load_footer.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
+		<script src="scripts/script_home.js"></script>
+		
 	</head>
 
 	<body>
 
 		<div id = "section1">
 
-			<nav class= "navbar navbar-default navbar-fixed-top">
-
-				<div class= "cont">
-
-					<!-- Senior Dropdown -->
-					<div class="dropdown">
-						<button class="dropbtn">Senior Year</button>
-							<div class="dropdown-content">
-								<a href="WPICourses.html">WPI Courses</a>
-								<a href="SISP.html">Senior Independent Project</a>
-							</div>
-					</div>
-					
-					<!-- Junior Dropdown -->
-					<div class="dropdown">
-						<button class="dropbtn">Junior Year</button>
-							<div class="dropdown-content">
-								<a href="CS.html">Computer Science</a>
-								<a href="Physics.html">Physics</a>
-								<a href="Math.html">Math</a>
-								<a href="STEM_I.html">STEM I</a>
-								<a href="STEM_II.html">STEM II</a>
-								<a href="Hum.html">Humanities</a>
-								<a href="Lang.html">Language</a>
-								<a href="STW.html">STW</a>
-							</div>
-					</div>
-
-					<!-- Personal Dropdown -->
-					<div class="dropdown">
-						<button class="dropbtn">Personal</button>
-							<div class="dropdown-content">
-								<a href="Hobbies.html">Hobbies</a>
-								<a href="Extracurriculars.html">Extracurriculars</a>
-								<a href="Service.html">Community Service</a>
-								<a href="Contact.html">Contact Me</a>
-							</div>
-					</div>
-
-					<!--Home Button Link-->
-					<div class="dropdown" onClick="window.location.href='index.html';">
-						<button class="dropbtn">Home</button>
-					</div>
-					
-				</div>
-
-			</nav>
+			<div id="header"></div>
 
 			<br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br>
 			<h1>Hello,</h1>
-			<h1>My Name is Rumaisa Abdulhai</h1>
+			<h1>I'm Rumaisa Abdulhai</h1>
 
 			<div class="arrow_div">
 				<a href="#section2">
@@ -135,10 +90,9 @@
 				<div class="wrap">
 					<img class= "left_image" src= "Images/sisters2.JPG" alt= "Me with My Sisters">
 					<p> 
-						Hello! I'm Rumaisa Abdulhai, a senior at the Massachusetts Academy of Math & Science (MAMS) in Worcester, Massachusetts. 
-						The picture on the left is me with my two sisters at my sister's wedding this summer. I am passionate about robotics and 
-						educating students in STEM. In my free time, I love to draw and play with my lovebirds. I have lived in 4 different countries, 
-						and attended 6 different schools in Doha, Dubai, Seattle, and New Jersey before MAMS.
+						Hello! My name is Rumaisa Abdulhai, a senior at the Massachusetts Academy of Math & Science (MAMS) in Worcester, Massachusetts. 
+						I am passionate about robotics and computer science. I have lived in 4 different countries, and attended 6 different schools in Doha, 
+						Dubai, Seattle, New Jersey, and Massachusetts. The picture on the left is me with my two sisters at my sister's wedding last summer. 
 					</p>
 				</div>
 
@@ -151,7 +105,8 @@
 							In the summer of 2019, I attended a 4-week intensive program called Beaver Works at MIT, where I learned how to 
 							program an intel drone using Python and the Robot Operating System (ROS) to autonomously navigate an obstacle course. 
 							The picture to the right is my team, and I am holding the drone we competed with. We were excited to win 1st place at 
-							the end of our program. You can read more about my experience <a class= "link" href="Extracurriculars.html">here</a>.
+							the aerial vehicle racing competition. You can read more about my experience 
+							<a class= "link" onClick="window.location.href='Extracurriculars.html#bwsi';">here</a>.
 						</p>
 				</div>
 
@@ -161,11 +116,11 @@
 				<div class="wrap">
 					<img class= "left_image" src= "Images/IMMC_Gang.jpeg"  alt= "A Zoom Picture of Me with My Team">
 						<p> 
-							This April, I competed in the 5-day International Mathematical Contest in Modeling (IMMC) with 3 classmates.
+							In April 2020, I competed in the 5-day International Math Modeling Contest (IMMC).
 							We developed simulations of department store layouts in Python and Java to maximize revenue and minimize damage to 
 							products during Black Friday sales. We incorporated factors such as popularity, rating, and cashier visibility
-							in our complex mathematical model. We were pleasantly surprised that we won the Finalist Prize! Read more about 
-							my experience <a class= "link" href="Extracurriculars.html">here</a>.
+							in our complex mathematical model. We were pleasantly surprised to win the Finalist Prize! Read more about 
+							my experience <a class= "link" onClick="window.location.href='Extracurriculars.html#modeling';">here</a>.
 						</p>
 				</div>
 
@@ -188,31 +143,16 @@
 				<div class="wrap">
 					<img class= "left_image" src= "Images/umrah.png"  alt= "Me with Sisters in front of the Kaaba">
 						<p>
-							In 2018, I went for Umrah (a pilgrimage) with my family to the cities of Makkah and Medinah in Saudi Arabia. 
+							In December 2018, I went for Umrah (a pilgrimage) with my family to the cities of Makkah and Medinah in Saudi Arabia. 
 							It was my first time visiting after 10 years. I really enjoyed the experience, and met so many people of 
 							different cultures from around the world. The mosques were beautiful and I miss it so much. To the left is 
-							me with my sisters in front of the Kaaba, one of the holiest sites in Islam.
+							me with my sisters in front of the Kaaba, the holiest site in Islam.
 						</p>
 				</div>
 
 				<br><br>
 
-				<footer>
-					<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
-					<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
-					<a href="" style= "text-decoration: none">
-						<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
-					</a>
-					<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
-						<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
-					</a>
-					<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
-						<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
-					</a>
-					<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
-						<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
-					</a>
-				</footer>
+				<footer id="footer"></footer>
 
 			</div>
 

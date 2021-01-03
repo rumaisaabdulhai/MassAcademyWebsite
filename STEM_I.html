@@ -10,63 +10,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/script_other.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type= "text/javascript" src="scripts/load_nav.js"></script>
+		<script type= "text/javascript" src="scripts/load_footer.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="scripts/anchor_shortcut.js"></script>
 	
 	</head>
 
 	<body>
 
-		<nav class= "navbar navbar-default navbar-fixed-top">
-
-			<div class= "cont">
-
-				<!-- Senior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Senior Year</button>
-						<div class="dropdown-content">
-							<a href="WPICourses.html">WPI Courses</a>
-							<a href="SISP.html">Senior Independent Project</a>
-						</div>
-				</div>
-				
-				<!-- Junior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Junior Year</button>
-						<div class="dropdown-content">
-							<a href="CS.html">Computer Science</a>
-							<a href="Physics.html">Physics</a>
-							<a href="Math.html">Math</a>
-							<a href="STEM_I.html">STEM I</a>
-							<a href="STEM_II.html">STEM II</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="STW.html">STW</a>
-						</div>
-				</div>
-
-				<!-- Personal Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Personal</button>
-						<div class="dropdown-content">
-							<a href="Hobbies.html">Hobbies</a>
-							<a href="Extracurriculars.html">Extracurriculars</a>
-							<a href="Service.html">Community Service</a>
-							<a href="Contact.html">Contact Me</a>
-						</div>
-				</div>
-
-				<!--Home Button Link-->
-				<div class="dropdown" onClick="window.location.href='index.html';">
-					<button class="dropbtn">Home</button>
-				</div>
-				
-			</div>
-
-		</nav>
+		<div id="header"></div>
 
 		<div id="section2">
 
@@ -84,16 +39,31 @@
 
 			<br>
 
-			<h3>Simulation of an Indoor Autonomous Drone for Assisting Police in Mass Shootings</h3>
+			<h3>An Autonomous Drone Application To Assist Police During Mass Shootings</h3>
 
 			<div class = "regular_text">
 				<p> 
-					The STEM I and II Courses are taught by Dr. Crowthers at Mass Academy. In STEM I, Mass Academy juniors are required to conduct a 
-					5-month long science or engineering project. In A Term, we brainstormed ideas for our STEM Project. In B Term, we conducted a 
-					Literature Review on relevant literature in our project's field. During December Fair, we presented our research and preliminary 
-					results on our project to advisors and Mass Academy seniors. We also have a February Fair where we present our STEM Project to 
-					the public. I am working on an engineering project using autonomous drones to assist law enforcement during mass shootings and 
-					save precious lives.
+					Mass shootings have claimed thousands of lives in the US as there are no effective mechanisms to prevent them. 
+					One can never tell when and where the next shooting will happen, inciting fear among students, teachers, and 
+					worshippers in churches, synagogues, and mosques. After the 2018 Parkland shooting, I thought about how I could 
+					use technology to protect my classmates if a shooting were to happen at my school. In the summer of 2019, I 
+					attended the Beaver Works Summer Program, where I learned how to program an intel drone in Python to navigate a 
+					path with obstacles autonomously. As I programmed the drone to identify visual markers and fly up or dive down 
+					to avoid obstacles, I wondered: could drones be used to protect lives during school shootings?
+
+					<br><br>
+
+					Hence for my year-long STEM project, I developed an autonomous drone application to 
+					assist police during school shootings. I used ROS, Gazebo, and Python to enable a quadcopter to navigate to 
+					a precise location inside a school where the perpetrator and victims of a mass shooting are likely to be found. 
+					I learned how to create an occupancy grid map of a complex school using the GMapping SLAM algorithm, a quadcopter, 
+					and a 2D LiDAR. I built a navigation component with Dijkstra’s and Dynamic-Window path-planning algorithms to 
+					enable the drone to navigate to any location inside the school. I also added a streaming component to transmit 
+					live video from the drone to a web server that police could monitor. My application demonstrated that indoor 
+					drones with intelligent software could inform police of real-time dangers during school shootings, enabling 
+					them to take timely actions to save human lives.
+
+
 				</p>
 			</div>
 
@@ -101,9 +71,9 @@
 
 			<div class = "regular_text">
 				<p>
-					In February, we presented our projects at WPI in front of judges. I am grateful that I had the opportunity to represent 
-					Mass Academy with 8 other students at the Massachusetts State Science Fair (MSEF) held virtually in April. Below is the poster 
-					I presented at MSEF. You can also find it <a class= "link" href= "docs/STEM_I_Poster.pdf">here</a>. My project won 3rd place at the fair. 
+					In April, I had the opportunity to represent Mass Academy with 8 other students at the Massachusetts State Science Fair 
+					(MSEF) held virtually. Below is the poster I presented at MSEF. You can also find it 
+					<a class= "link" href= "docs/STEM_I_Poster.pdf">here</a>. My project won 3rd place at the fair. 
 					I also presented my STEM I project at the National Consortium of Secondary STEM Schools (NCSSS) Conference held in June.
 				</p>
 				<br>
@@ -116,7 +86,7 @@
 
 			<div class = "regular_text">
 				<p>
-					Below is the 5 minute video I submitted to MSEF that gives a 5 minute overview of my project. Please visit my YouTube <a class= "link" href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg">channel</a> to see more videos 
+					Below is the 5 minute video I submitted to MSEF that gives an overview of my project. Please visit my YouTube <a class= "link" href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg">channel</a> to see more videos 
 					on my STEM project.
 				</p>
 				<br>
@@ -129,7 +99,7 @@
 
 			<div class= "regular_text">
 				<p>
-					As part of our STEM I Project, we had to write a thesis, or research paper. In the 
+					As part of our STEM I Project, we had to write a thesis. In the 
 					<a class= "link" href= "docs/Thesis.pdf">document</a>, you can find the abstract, 
 					literature review, materials and methods, results, discussion and conclusion, and appendices.
 				</p>
@@ -162,22 +132,7 @@
 				</p>
 			</div>
 
-			<footer>
-				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
-				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
-				<a href="" style= "text-decoration: none">
-					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
-				</a>
-				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
-					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
-				</a>
-				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
-					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
-				</a>
-				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
-					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
-				</a>
-			</footer>
+			<footer id="footer"></footer>
 				
 		</div>
 

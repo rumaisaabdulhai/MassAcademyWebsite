@@ -10,64 +10,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/script_other.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type= "text/javascript" src="scripts/load_nav.js"></script>
+		<script type= "text/javascript" src="scripts/load_footer.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="scripts/anchor_shortcut.js"></script>
 	
 	</head>
 
 	<body>
 
-		<nav class= "navbar navbar-default navbar-fixed-top">
-
-			<div class= "cont">
-
-				<!-- Senior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Senior Year</button>
-						<div class="dropdown-content">
-							<a href="WPICourses.html">WPI Courses</a>
-							<a href="SISP.html">Senior Independent Project</a>
-						</div>
-				</div>
-				
-				<!-- Junior Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Junior Year</button>
-						<div class="dropdown-content">
-							<a href="CS.html">Computer Science</a>
-							<a href="Physics.html">Physics</a>
-							<a href="Math.html">Math</a>
-							<a href="STEM_I.html">STEM I</a>
-							<a href="STEM_II.html">STEM II</a>
-							<a href="Hum.html">Humanities</a>
-							<a href="Lang.html">Language</a>
-							<a href="STW.html">STW</a>
-						</div>
-				</div>
-
-				<!-- Personal Dropdown -->
-				<div class="dropdown">
-					<button class="dropbtn">Personal</button>
-						<div class="dropdown-content">
-							<a href="Hobbies.html">Hobbies</a>
-							<a href="Extracurriculars.html">Extracurriculars</a>
-							<a href="Service.html">Community Service</a>
-							<a href="Contact.html">Contact Me</a>
-						</div>
-				</div>
-
-				<!--Home Button Link-->
-				<div class="dropdown" onClick="window.location.href='index.html';">
-					<button class="dropbtn">Home</button>
-				</div>
-				
-			</div>
-
-		</nav>
-
+		<div id="header"></div>
 
 		<div id="section2">
 
@@ -90,11 +44,13 @@
 
 			<div class="regular_text">
 				<p>
-					This summer, I led a project with 3 MAMS students to help high school students search, find, and apply 
-					to volunteer opportunities, summer programs, and internships that interest them. Our proposed solution 
+					In the summer of 2020, I led a project with three classmates to help high school students to search, find, and apply to volunteer opportunities, summer programs, 
+					and internships. High school students currently have to spend hours 
+					searching through outdated content on numerous websites to find opportunities at hospitals, universities, or 
+					companies. Our proposed solution 
 					is HelpOut: a mobile application on iOS and Android platforms that would serve as a single destination 
 					for high schoolers to effectively search, filter, and directly apply for programs they are passionate 
-					about. We developed many the Android mobile application features over the summer, conducted a design 
+					about. We developed many of the Android mobile app features over the summer, conducted a design 
 					study to assess the need for such a platform, wrote a grant proposal, and reached out to high schools and 
 					organizations in Massachusetts for support. Our team was selected to be a finalist for the grant. We hope 
 					to continue the project during senior year. The <a class= "link" href= "docs/HelpOut.pdf">presentation</a> 
@@ -132,9 +88,10 @@
 			<div class="wrap">
 				<img class= "right_image" src= "Images/MeAndDrone.jpg" alt="Me with Drone">
 				<p> 
-					As a sophomore, I attended the 2019 Beaver Works summer program at MIT for 4 weeks. I learned how to pilot and program a quadcopter using Python, 
-					the Robot Operating System (ROS), and openCV. Every day we would attend seminars from industry leaders including Lincoln Labs 
-					and BAE Systems. My experience at Beaver Works inspired me to pursue my <a class= "link" href="STEM_I.html">STEM I</a> Project.
+					In the summer of 2019, I attended the Beaver Works Program at MIT for 4 weeks as a sophomore. I learned how to pilot 
+					and program a quadcopter using Python, the Robot Operating System (ROS), and openCV. Every day we would attend 
+					seminars from industry leaders including Lincoln Labs and BAE Systems. My experience at Beaver Works inspired me to 
+					pursue my <a class= "link" href="STEM_I.html">autonomous drone application</a> to fight mass shootings.
 				</p>
 			</div>
 
@@ -168,13 +125,12 @@
 
 			<div class="regular_text">
 					<p> 
-						At MAMS, I became passionate about Math Modeling. I developed a keen interest for solving these modeling problems 
-						as they tackled issues in the real world– from climate change and energy consumption to marketing and sales. In 
-						November 2019, I formed a team with 3 MAMS students to compete in the 2019 High School Math Contest in Modeling 
-						(HiMCM), where a total of 791 teams competed. You can read more about my HiMCM experience here. We were proud of 
-						our work and had a lot of fun while doing it. We were thrilled when our team US-9539 won the Finalist Prize. 
-						We wanted to see what other competitions were out there, and found we were qualified to compete in the 2020 
-						International Mathematical Modeling Competition (IMMC).
+						In 11th grade, I developed a keen interest for solving math modeling problems 
+						as they tackled issues in the real world, from climate change and energy consumption to marketing and sales. In 
+						November 2019, I formed a team with 3 classmates to compete in the 2019 High School Math Contest in Modeling 
+						(HiMCM), where a total of 791 teams competed. You can read more about my HiMCM experience <a class= "link" href= "Math.html#himcm">here</a>. We were proud of 
+						our work and had a lot of fun while doing it. We were thrilled when our team won the US Finalist Prize. In April 2020, we were 
+						qualified to compete in the 2020 International Mathematical Modeling Competition (IMMC).
 						See the 2020 problem <a class= "link" href= "docs/IMMC_Problem.pdf">here</a>.
 					</p>
 			</div>
@@ -206,7 +162,7 @@
 			<div class="wrap">
 				<img class= "right_image" src= "Images/Mathworks.jpg" alt="Mathworks Team">
 					<p> 
-						I also competed in the 14-hour MathWorks Math Modeling Challenge with 4 MAMS students this February. We created a model to determine 
+						I also competed in the 14-hour MathWorks Math Modeling Challenge with 4 classmates in February 2020. We created a model to determine 
 						the number and locations of charging stations along major U.S. trucking routes for an all-electric trucking industry, and had to 
 						prioritize which routes should be developed with electric charging infrastructure first.
 					</p>
@@ -238,22 +194,7 @@
 				</p>
 			</div>
 
-			<footer>
-				<p>Coded by Rumaisa Abdulhai © 2019-2020</p>
-				<p>Contact Me: <a href="mailto:rabdulhai@wpi.edu">rabdulhai@wpi.edu</a></p>
-				<a href="" style= "text-decoration: none">
-					<img class="icon" src= "Images/ln_icon.png" alt= "LinkedIn Icon">
-				</a>
-				<a href="https://github.com/rumaisaabdulhai" style= "text-decoration: none">
-					<img class="icon" src= "Images/gh_icon.png" alt= "GitHub Icon">
-				</a>
-				<a href="https://www.youtube.com/channel/UCfvje9FSd2gTdbsGxQ2Hmqg" style= "text-decoration: none">
-					<img class="icon" src= "Images/yt_icon.png" alt= "YouTube Icon">
-				</a>
-				<a href="https://www.instagram.com/rumidraws/" style= "text-decoration: none">
-					<img class="icon" src= "Images/ig_icon.png" alt= "Instagram Icon">
-				</a>
-			</footer>
+			<footer id="footer"></footer>
 
 		</div>
 
